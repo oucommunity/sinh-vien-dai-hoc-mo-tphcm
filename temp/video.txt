@@ -1,0 +1,257 @@
+ =======================video section======================
+
+ <section class="video-counter pt-100">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-lg-12 mt-20">
+                    <div class="section-title">
+                        <div class="line"></div>
+                        <h3 class="title">Bài hát <span> chủ đề </span></h3>
+                        <!-- <h3 class="title">Hướng dẫn <span> đăng ký nhập học </span></h3> -->
+                        <!-- <p>Lưu ý: 1 số mục sẽ thiếu do đây là hướng dẫn nhập học đợt 1 dành cho học bạ. Các bạn làm theo, nếu thiếu mục nào thì hãy đọc lại hướng dẫn và bổ sung thêm. Cảm ơn !</p> -->
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-10 mt-10">
+                    <div class="video-content mt-20 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <img class="dots" src="assets/images/dots.svg" alt="dots">
+                        <div class="video-wrapper">
+                            <div class="video-image">
+                                <img src="assets/images/video-3.png" alt="video">
+                            </div>
+                            <div class="video-icon">
+                                <a href="https://www.youtube.com/watch?v=sF4R4d5U3Jg" class="video-popup"><i
+                                        class="lni-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hướng dẫn nhập học -->
+                <!-- <div class="col-lg-5 col-md-5 col-10 mt-10">
+                    <div class="video-content mt-20 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <img class="dots" src="assets/images/dots.svg" alt="dots">
+                        <div class="video-wrapper">
+                            <div class="video-image">
+                                <img src="assets/images/video-1.png" alt="video">
+                            </div>
+                            <div class="video-icon">
+                                <a href="https://www.youtube.com/watch?v=NQ5Pm7PPb6o" class="video-popup"><i
+                                        class="lni-play"></i></a>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>
+
+                <div class="col-lg-5 col-md-5 col-10 mt-10">
+                    <div class="video-content mt-20 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <img class="dots" src="assets/images/dots.svg" alt="dots">
+                        <div class="video-wrapper">
+                            <div class="video-image">
+                                <img src="assets/images/video-4.png" alt="video">
+                            </div>
+                            <div class="video-icon">
+                                <a href="hhttps://www.youtube.com/watch?v=TcybXHbd540" class="video-popup"><i
+                                        class="lni-play"></i></a>
+                            </div>
+                        </div> 
+                    </div> 
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+========================== tuyen sinh =========================
+      <section class="about-area pt-10">
+        <div class="about-shape-2">
+            <img src="assets/images/about-shape-2.svg" alt="shape">
+        </div>
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-lg-6 order-lg-last">
+                    <div class="about-content mt-50 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <div class="section-title">
+                            <div class="line"></div>
+                        </div> <!-- section title -->
+                        <ul class="section-content">
+                            <li>
+                                <p>
+                                    Thông tin tuyển sinh Đại học Chính quy 2021: <a
+                                        href="http://tuyensinh.ou.edu.vn/tong-quan-ve-tuyen-sinh-2021"
+                                        target="_blank">Click vào đây !</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Đề án tuyển sinh(thông tin tuyển sinh 2021, khoa -
+                                    ngành, chỉ tiêu, cơ sở vật chất, ds giảng viên.....):<a
+                                        href="https://drive.google.com/file/d/1hz-t4mJzBSjICwLzGdYNtpihYM5UCAxZ/view?usp=sharing"
+                                        target="_blank">Click vào đây !</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Thông báo hướng dẫn nhập học (dành cho sv đậu xét học bạ
+                                    và đã
+                                    thi đợt 1):<a
+                                        href="http://tuyensinh.ou.edu.vn/thong-bao-huong-dan-tan-sinh-vien-nhap-hoc-khoa-2021-dot-1"
+                                        target="_blank">Click vào đây !</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Hướng dẫn Chuẩn bị các minh chứng để hưởng chế độ ưu
+                                    tiên
+                                    trong tuyển sinh:
+                                    <a href="http://tuyensinh.ou.edu.vn/hd-chuan-bi-mc-huong-che-do-uu-tien-2021"
+                                        target="_blank">Click vào đây !</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Thông báo (Cập nhật) v/v tiếp nhận Tân sinh viên khóa
+                                    2021 - Đợt 1: <a
+                                        href="http://tuyensinh.ou.edu.vn/thong-bao-vv-gia-han-tiep-nhan-tan-sinh-vien-khoa-2021-dot-1-cap-nhat"
+                                        target="_blank">Click vào đây !</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div> <!-- about content -->
+                </div>
+                <div class="col-lg-4 order-lg-first">
+                    <div class="about-image text-center mt-50 wow fadeInRightBig" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <img src="assets/images/student/Exams.gif" alt="about">
+                    </div> <!-- about image -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <section class="about-area pt-10">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="about-content mt-50 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <div class="section-title">
+                            <div class="line"></div>
+                        </div> <!-- section title -->
+                        <ul class="section-content">
+                            <li>
+                                <p>
+                                    Hướng dẫn Tân sinh viên nộp hồ sơ xét miễm giảm môn học
+                                    (Tiếng
+                                    Anh không chuyên, Ngoại ngữ hai, Tin học đại cương và
+                                    môn học
+                                    khác)<a
+                                        href="http://tuyensinh.ou.edu.vn/huong-dan-tan-sv-nop-ho-so-xet-mien-giam-mon-hoc"
+                                        target="_blank">Click vào đây !</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Hướng dẫn Nộp hồ sơ học bổng chế độ chính sách khóa
+                                    2021:<a
+                                        href="http://tuyensinh.ou.edu.vn/huong-dan-nop-ho-so-hoc-bong-che-do-chinh-sach-khoa-2021"
+                                        target="_blank">Click vào đây !</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Thông tin về các loại học bổng:<a href="https://ou.edu.vn/hocbong/"
+                                        target="_blank">https://ou.edu.vn/hocbong/</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Các thông tin về chính sách miễn, giảm học phí, hỗ trợ
+                                    chi phí
+                                    học tập năm học 2020 – 2021:<a
+                                        href="https://ou.edu.vn/tin_tuc/thong-bao-ve-viec-thuc-hien-mot-so-dieu-cua-nghi-dinh-so-862015nd-cp-ngay-02-thang-10-nam-2015-cua-chinh-phu-quy-dinh-ve-co-che-thu-quan-ly-hoc-phi-doi-voi-co-so-giao-duc-thuoc-he-thong-giao-duc-qu-3/"
+                                        target="_blank">Click vào đây !</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Sổ tay sinh viên:<a
+                                        href="http://ou.edu.vn/wp-content/uploads/2017/09/SO-TAY-SV-2020.pdf"
+                                        target="_blank">Click vào đây !</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div> <!-- about content -->
+                </div>
+                <div class="col-lg-4">
+                    <div class="about-image text-center mt-50 wow fadeInRightBig" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <img src="assets/images/student/BookLover-2.gif" alt="about">
+                    </div> <!-- about image -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+        <div class="about-shape-1">
+            <img src="assets/images/about-shape-1.svg" alt="shape">
+        </div>
+    </section>
+
+
+================= contact ====================
+ <section id="contact" class="services-area pt-15">
+        <div class="container wow fadeIn">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="section-title text-center pb-10">
+                        <div class="line m-auto"></div>
+                        <h3 class="title">Liên lạc <span> khi gặp vấn đề trong tuyển sinh</span></h3>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="single-services text-center mt-10 wow fadeIn" data-wow-duration="1s"
+                        data-wow-delay="0.2s">
+                        <div class="services-icon">
+                            <img class="shape" src="assets/images/services-shape.svg" alt="shape">
+                            <img class="shape-1" src="assets/images/services-shape-1.svg" alt="shape">
+                            <i class="lni lni-phone-handset"></i>
+                        </div>
+                        <div class="services-content fix-word">
+                            <h4 class="services-title">Liên Hệ <span>(chỉ cần click, không cần copy)</span></h4>
+                            <ul>
+                                <li>
+                                    <p>
+                                        Email ban tuyển sinh <br><a
+                                            href="mailto:tuyensinh@ou.edu.vn">tuyensinh@ou.edu.vn</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Email phòng quản lý đào tạo<br><a
+                                            href="mailto:quanlydaotao@ou.edu.vn">quanlydaotao@ou.edu.vn</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Fanpage trường<br><a href="https://www.facebook.com/tuyensinh.ou.edu.vn"
+                                            target="_blank">https://www.facebook.com/tuyensinh.ou.edu.vn</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Sđt hotline<br>
+                                        <a href="tel:1800585884">1800 5858 84</a> |
+                                        <a href="tel:02839207627">(028).39207627</a> |
+                                        <a href="tel:0839300072">08.39300072</a> |
+                                        <a href="tel:02839207626">028.39207626</a> |
+                                        <a href="tel:02839207639">028.39207639</a>
+                                    </p>
+                                    <p>Thời gian làm việc: <b> từ t2 - t6 (8h - 17h)</b></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> <!-- single services -->
+                </div>
+            </div>
+        </div> <!-- row -->
+        </div> <!-- container -->
+    </section>

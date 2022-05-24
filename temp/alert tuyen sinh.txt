@@ -1,0 +1,8 @@
+
+
+          Swal.fire({
+            title: 'Góc cảnh báo !',
+            html: '<span class="font-weight-bold">❗ Group <span class="text-danger">Sinh Viên Đại Học Mở Tp.HCM</span> đã bị hacker chiếm đoạt hoàn toàn. Mọi thông tin trong nhóm hãy cẩn thận (mọi tổn thất đều không chịu trách nhiệm) !!!</span><br>' +
+                '<span class="mt-10 font-weight-bold">Tham gia nhóm mới <a href="https://www.facebook.com/groups/ou.community" class="text-success"> Cộng đồng Sinh viên Đại học Mở Tp.HCM - HCMCOU</a></span>',
+            footer: '<a href="https://www.facebook.com/groups/ou.community" target="_blank" class="text-center">Vào group <span class="text-danger">"Cộng đồng Sinh viên Đại học Mở Tp.HCM - HCMCOU"</span> để biết nhiều thông tin hơn. Nhấn vào đây!</a>'
+        })
