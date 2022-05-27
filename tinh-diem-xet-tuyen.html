@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tính điểm kết quả học tập THPT - Sinh viên Đại học Mở Tp.HCM</title>
+    <title>Tính điểm kết quả học tập THPT - Trang Sinh viên Đại học Mở Tp.HCM</title>
     <meta property="og:site_name"
         content="https://oucommunity.github.io/sinh-vien-dai-hoc-mo-tphcm/tinh-diem-xet-tuyen" />
     <meta property="og:title" content="Tính điểm kết quả học tập THPT - Trang sinh viên Đại học Mở Tp.HCM" />
@@ -73,8 +73,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand"
-                                href="https://oucommunity.github.io/sinh-vien-dai-hoc-mo-tphcm">
+                            <a class="navbar-brand" href="https://oucommunity.github.io/sinh-vien-dai-hoc-mo-tphcm">
                                 <img src="assets/lib/loader-page/ou-logo-scroll.svg" alt="Logo">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -566,7 +565,7 @@
                                 </table>
                             </div>
                         </div>
-                        <p class="mt-4"> <span class="font-weight-bold">Lưu ý:</span> Điểm ở trên<span
+                        <p class="mt-4 px-3"> <span class="font-weight-bold">Lưu ý:</span> Điểm ở trên<span
                                 class="font-weight-bold text-danger d-inline"> và điểm khi đăng ký xét online
                             </span>khác
                             nhau vì khi xét online chưa áp dụng công thức tính điểm (Web tính điểm đã áp dụng công thức,
@@ -666,6 +665,93 @@
     </section>
     <!--====== GROUP PART ENDS ======-->
 
+    <!--====== GRADE STARTS ======-->
+    <section class="blog-area pt-15" id="grade">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <div class="line"></div>
+                        <h3 class="title">Thông tin điểm <span>học bạ</span> từng năm</h3>
+                        <div>
+                            <p class="font-weight-bold">Lưu ý:</p>
+                            <p>1. Chỉ có cột điểm học bạ là <span class="font-weight-bold text-danger d-inline">học sinh
+                                    giỏi &
+                                    học sinh khá có thể xét</span></p>
+                            <p>2. Chỉ có cột điểm học sinh giỏi là <span
+                                    class="font-weight-bold text-danger d-inline">học sinh
+                                    giỏi mới được xét, học sinh khá không được
+                                    xét</span></p>
+                            <p>3. Nếu cột học sinh giỏi không có ghi, cột học bạ điền dấu "x" hoặc không điền gì, nghĩa
+                                là <span class="font-weight-bold text-danger d-inline">tuyển thẳng học sinh giỏi</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="table-responsive">
+                        <table id="basic-datatables" class="table table-striped table-bordered table-hover">
+                            <thead>
+                                <tr class="table-primary">
+                                    <th rowspan="2">Mã ngành</th>
+                                    <th rowspan="2">Tên ngành</th>
+                                    <th colspan="2">Năm 2021</th>
+                                    <th colspan="2">Năm 2020</th>
+                                    <th colspan="2">Năm 2019</th>
+                                    <th rowspan="2">Ghi chú</th>
+                                </tr>
+                                <tr class="table-danger">
+                                    <th>HSG</th>
+                                    <th>Học bạ</th>
+                                    <th>HSG</th>
+                                    <th>Học bạ</th>
+                                    <th>HSG</th>
+                                    <th>Học bạ</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-area pt-15">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title">
+                        <div class="line"></div>
+                        <h3 class="title">
+                            Thông tin điểm thi <span>THPTQG</span> từng năm
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="table-responsive">
+                        <table id="basic-datatables-dt" class="table table-striped table-bordered table-hover">
+                            <thead>
+                                <tr class="table-primary">
+                                    <th>Mã ngành</th>
+                                    <th>Tên ngành</th>
+                                    <th>Năm 2021</th>
+                                    <th>Năm 2020</th>
+                                    <th>Năm 2019</th>
+                                    <th>Năm 2018</th>
+                                    <th>Năm 2017</th>
+                                    <th>Ghi chú</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== GRADE ENDS ======-->
+
     <!--====== TOAST START ======-->
     <div class="toast">
         <div class="toast-content">
@@ -683,18 +769,21 @@
     <!--====== TOAST ENDS ======-->
 
     <!--====== FOOTER PART START ======-->
-    <footer id="footer" class="footer-area">
+    <footer id="footer" class="footer-area pt-70">
         <div class="container">
             <div class="footer-copyright">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="footer-about mt-50 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <a class="logo" href="https://oucommunity.github.io/sinh-vien-dai-hoc-mo-tphcm">
-                                <img src="assets/lib/loader-page/ou-logo-scroll.svg" alt="logo">
+                                <img src="assets/lib/loader-page/ou-logo-light.svg" alt="logo">
                             </a>
-                            <p class="text">Trang web này lập ra nhằm hỗ trợ các bạn tân sinh viên tìm kiếm thông tin dễ
-                                dàng hơn (đây là trang web phi lợi nhuận)</p>
-                        </div> <!-- footer about -->
+                            <p class="text">
+                                Trang web này lập ra nhằm hỗ trợ các bạn tân sinh viên tìm
+                                kiếm thông tin dễ dàng hơn (đây là trang web phi lợi nhuận)
+                            </p>
+                        </div>
+                        <!-- footer about -->
                     </div>
                 </div>
                 <div class="row justify-content-around">
@@ -705,13 +794,22 @@
                                     <h4 class="title">Thông tin liên quan</h4>
                                 </div>
                                 <ul class="link">
-                                    <li><a href="https://www.facebook.com/NguyenThanhNam1601">Facebook Thành Nam</a>
+                                    <li>
+                                        <a href="https://www.facebook.com/NguyenThanhNam1601">Facebook Thành Nam</a>
                                     </li>
-                                    <li> <a href="https://www.facebook.com/groups/ou.community">Group Cộng đồng Sinh
-                                            viên Đại học Mở Tp.HCM</a></li>
+                                    <li>
+                                        <a href="https://www.facebook.com/groups/ou.community">Group Cộng đồng Sinh viên
+                                            Đại học Mở Tp.HCM</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/groups/oumembers">Group Sinh viên
+                                            Đại học Mở Tp.HCM</a>
+                                    </li>
                                 </ul>
-                            </div> <!-- footer wrapper -->
-                        </div> <!-- footer link -->
+                            </div>
+                            <!-- footer wrapper -->
+                        </div>
+                        <!-- footer link -->
                     </div>
 
                     <div class="col-lg-6 col-md-12 col-sm-12">
@@ -723,19 +821,20 @@
                                 <ul class="link">
                                     <li>
                                         <p>
-                                            Email ban tuyển sinh: <a
-                                                href="mailto:tuyensinh@ou.edu.vn">tuyensinh@ou.edu.vn</a>
+                                            Email ban tuyển sinh:
+                                            <a href="mailto:tuyensinh@ou.edu.vn">tuyensinh@ou.edu.vn</a>
                                         </p>
                                     </li>
                                     <li>
                                         <p>
-                                            Email phòng quản lý đào tạo: <a
-                                                href="mailto:quanlydaotao@ou.edu.vn">quanlydaotao@ou.edu.vn</a>
+                                            Email phòng quản lý đào tạo:
+                                            <a href="mailto:quanlydaotao@ou.edu.vn">quanlydaotao@ou.edu.vn</a>
                                         </p>
                                     </li>
                                     <li>
                                         <p>
-                                            Fanpage trường: <a href="https://www.facebook.com/tuyensinh.ou.edu.vn"
+                                            Fanpage trường:
+                                            <a href="https://www.facebook.com/tuyensinh.ou.edu.vn"
                                                 target="_blank">https://www.facebook.com/tuyensinh.ou.edu.vn</a>
                                         </p>
                                     </li>
@@ -751,25 +850,31 @@
                                         <p>Thời gian làm việc: <b> từ t2 - t6 (8h - 17h)</b></p>
                                     </li>
                                 </ul>
-
-                            </div> <!-- footer wrapper -->
-                        </div> <!-- footer link -->
+                            </div>
+                            <!-- footer wrapper -->
+                        </div>
+                        <!-- footer link -->
                     </div>
 
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="copyright d-sm-flex mt-20">
                             <div class="copyright-content">
                                 <p>
-                                    Copyright ©2021 All rights reserved |
-                                    <i class="lni lni-heart-filled" style="color: #fe5151"></i> by
+                                    Copyright ©2021 Code và thiết kế bởi
+                                    <i class="lni lni-heart-filled" style="color: #fe5151"></i>
                                     <a href="https://www.facebook.com/NguyenThanhNam1601" target="_black">Thành Nam</a>
                                 </p>
-                            </div> <!-- copyright content -->
-                        </div> <!-- copyright -->
+                            </div>
+                            <!-- copyright content -->
+                        </div>
+                        <!-- copyright -->
                     </div>
-                </div> <!-- row -->
-            </div> <!-- footer copyright -->
-        </div> <!-- container -->
+                </div>
+                <!-- row -->
+            </div>
+            <!-- footer copyright -->
+        </div>
+        <!-- container -->
         <div id="particles-2"></div>
     </footer>
     <!--====== FOOTER PART ENDS ======-->
@@ -827,6 +932,7 @@
     <script src="assets/js/countdown.js"></script>
     <script src="assets/lib/database/datatables.min.js"></script>
     <script src="assets/js/grade/grade-table.js"></script>
+    <script src="assets/js/grade/grade.js"></script>
     <script src="assets/lib/cursor/cursor.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 

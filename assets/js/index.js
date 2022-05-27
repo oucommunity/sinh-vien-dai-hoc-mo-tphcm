@@ -192,285 +192,285 @@ renderNews = (news) => {
 renderNews(news);
 
 /* =============== post group =============== */
-// let post = [{
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-8.png',
-//         image_hot: 'assets/images/postGr/new.gif',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1457381638011773/',
-//         time: '04/04/2022',
-//         title: 'Cần chuẩn bị gì trước khi đăng ký xét học bạ online ?'
-//     },
-//     {
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-9.jpg',
-//         image_hot: 'assets/images/postGr/new.gif',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1455695938180343/',
-//         time: '01/04/2022',
-//         title: 'Thông báo đăng ký tuyển sinh học bạ Đại học Chính quy năm 2022'
-//     },
-//     {
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-11.jpg',
-//         image_hot: 'assets/images/postGr/new.gif',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1444214249328512/',
-//         time: '15/03/2022',
-//         title: 'Giới thiệu Ngành - Chuyên ngành đào tạo - Cơ hội việc làm ở Trường ĐH Mở Tp.HCM'
-//     },
-//     {
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-12.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1435431036873500/',
-//         time: '02/03/2022',
-//         title: 'Chỉ tiêu tuyển sinh - Học phí năm 2022 - 2023 & Điểm chuẩn các năm'
-//     }, {
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-13.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1428577757558828/',
-//         time: '20/02/2022',
-//         title: 'Công cụ tính điểm xét tuyển (Xét học bạ & xét thi THPT)'
-//     },
-//     {
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-14.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1426346964448574/',
-//         time: '17/02/2022',
-//         title: 'Thông tin tuyển sinh Đại học chính quy năm 2022'
-//     }
-// ]
+let post = [{
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-8.png',
+        image_hot: 'assets/images/postGr/new.gif',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1457381638011773/',
+        time: '04/04/2022',
+        title: 'Cần chuẩn bị gì trước khi đăng ký xét học bạ online ?'
+    },
+    {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-9.jpg',
+        image_hot: 'assets/images/postGr/new.gif',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1455695938180343/',
+        time: '01/04/2022',
+        title: 'Thông báo đăng ký tuyển sinh học bạ Đại học Chính quy năm 2022'
+    },
+    {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-11.jpg',
+        image_hot: 'assets/images/postGr/new.gif',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1444214249328512/',
+        time: '15/03/2022',
+        title: 'Giới thiệu Ngành - Chuyên ngành đào tạo - Cơ hội việc làm ở Trường ĐH Mở Tp.HCM'
+    },
+    {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-12.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1435431036873500/',
+        time: '02/03/2022',
+        title: 'Chỉ tiêu tuyển sinh - Học phí năm 2022 - 2023 & Điểm chuẩn các năm'
+    }, {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-13.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1428577757558828/',
+        time: '20/02/2022',
+        title: 'Công cụ tính điểm xét tuyển (Xét học bạ & xét thi THPT)'
+    },
+    {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-14.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1426346964448574/',
+        time: '17/02/2022',
+        title: 'Thông tin tuyển sinh Đại học chính quy năm 2022'
+    }
+]
 
-// let post_list = document.querySelector('#group-post')
-// renderPost = (post) => {
-//     post.forEach(function (e) {
-//         let prod =
-//             `
-//             <div class="df col-lg-4 col-md-6 col-sm-6">
-//                 <div class="single-blog mt-30">
-//                     <div class="blog-image">
-//                         <img src="${e.image}" alt="blog">       
-//             `
+let post_list = document.querySelector('#group-post')
+renderPost = (post) => {
+    post.forEach(function (e) {
+        let prod =
+            `
+            <div class="df col-lg-4 col-md-6 col-sm-6">
+                <div class="single-blog mt-30">
+                    <div class="blog-image">
+                        <img src="${e.image}" alt="blog">       
+            `
 
-//         if (!e.image_hot == '')
-//             prod += `<img src="${e.image_hot}" alt="new">`
+        if (!e.image_hot == '')
+            prod += `<img src="${e.image_hot}" alt="new">`
 
-//         prod +=
-//             ` </div>
-//                 <div class="blog-content">
-//                     <ul class="meta">
-//                         <li><b>Đăng bởi:</b> <a href="#">${e.author}</a></li>
-//                         <li>${e.time}</li>
-//                     </ul>
-//                     <p class="text">${e.title}</p>
-//                     <a class="more" href="${e.link}"
-//                         target="_blank">Xem
-//                         chi tiết<i class="lni-chevron-right"></i></a>
-//                 </div>
-//             </div> <!-- single blog -->
-//         </div>
-//         `
-//         post_list.insertAdjacentHTML("beforeend", prod)
-//     })
-// }
-// renderPost(post);
+        prod +=
+            ` </div>
+                <div class="blog-content">
+                    <ul class="meta">
+                        <li><b>Đăng bởi:</b> <a href="#">${e.author}</a></li>
+                        <li>${e.time}</li>
+                    </ul>
+                    <p class="text">${e.title}</p>
+                    <a class="more" href="${e.link}"
+                        target="_blank">Xem
+                        chi tiết<i class="lni-chevron-right"></i></a>
+                </div>
+            </div> <!-- single blog -->
+        </div>
+        `
+        post_list.insertAdjacentHTML("beforeend", prod)
+    })
+}
+renderPost(post);
 
-// /* =============== post group utility =============== */
-// let postUtil = [{
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-16.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1347522502331021/',
-//         time: '18/10/2021',
-//         title: 'Hướng dẫn sửa lỗi font slide của giảng viên'
-//     },
-//     {
-//         author: 'Thảo Vy Ngo ',
-//         image: 'assets/images/postGr/post-15.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1337789979970940/',
-//         time: '04/10/2021',
-//         title: 'NOTION PERSONAL PRO - XÀI FREE NHỜ CÓ MAIL TRƯỜNG'
-//     },
-//     {
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-14.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1320830008333604/',
-//         time: '09/09/2021',
-//         title: 'Chatbot ôn luyện tin học và anh văn đầu vào'
-//     },
-//     {
-//         author: 'Thảo Vy Ngo',
-//         image: 'assets/images/postGr/post-13.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1343930692690202/',
-//         time: '13/10/2021',
-//         title: 'CANVA FOR EDUCATION - XÀI FREE NHỜ CÓ MAIL TRƯỜNG'
-//     },
-//     {
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-10.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1311843205898951/',
-//         time: '27/08/2021',
-//         title: 'Share template kho tài liệu tiếng anh tự học'
-//     },
-//     {
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-12.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1284282711988334/',
-//         time: '18/07/2021',
-//         title: 'Hướng dẫn chụp ảnh 3x4 upload web.'
-//     }
-// ]
+/* =============== post group utility =============== */
+let postUtil = [{
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-16.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1347522502331021/',
+        time: '18/10/2021',
+        title: 'Hướng dẫn sửa lỗi font slide của giảng viên'
+    },
+    {
+        author: 'Thảo Vy Ngo ',
+        image: 'assets/images/postGr/post-15.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1337789979970940/',
+        time: '04/10/2021',
+        title: 'NOTION PERSONAL PRO - XÀI FREE NHỜ CÓ MAIL TRƯỜNG'
+    },
+    {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-14.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1320830008333604/',
+        time: '09/09/2021',
+        title: 'Chatbot ôn luyện tin học và anh văn đầu vào'
+    },
+    {
+        author: 'Thảo Vy Ngo',
+        image: 'assets/images/postGr/post-13.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1343930692690202/',
+        time: '13/10/2021',
+        title: 'CANVA FOR EDUCATION - XÀI FREE NHỜ CÓ MAIL TRƯỜNG'
+    },
+    {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-10.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1311843205898951/',
+        time: '27/08/2021',
+        title: 'Share template kho tài liệu tiếng anh tự học'
+    },
+    {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-12.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1284282711988334/',
+        time: '18/07/2021',
+        title: 'Hướng dẫn chụp ảnh 3x4 upload web.'
+    }
+]
 
-// let post_util_list = document.querySelector('#group-post-util')
-// renderPostUtil = (post) => {
-//     post.forEach(function (e) {
-//         let prod =
-//             `
-//         <div class="df col-lg-4 col-md-6 col-sm-6">
-//             <div class="trick-box">
-//                 <div class="trick-img">
-//                     <img src="${e.image}" alt="blog" />
-//                 </div>
-//                 <div class="trick-data">
-//                     <div class="trick-head">
-//                         <span class="trick-author">${e.author}</span>
-//                         <span>${e.time}</span>
-//                     </div>           
-//                         <p class="text">${e.title}</p>
-//                         <a href="${e.link}" class="trick-more" target="_blank">Xem chi tiết <i class="lni lni-arrow-right"></i></a>
-//                 </div>
-//             </div>
-//         </div>  
-//         `
-//         post_util_list.insertAdjacentHTML("beforeend", prod)
-//     })
-// }
-// renderPostUtil(postUtil);
+let post_util_list = document.querySelector('#group-post-util')
+renderPostUtil = (post) => {
+    post.forEach(function (e) {
+        let prod =
+            `
+        <div class="df col-lg-4 col-md-6 col-sm-6">
+            <div class="trick-box">
+                <div class="trick-img">
+                    <img src="${e.image}" alt="blog" />
+                </div>
+                <div class="trick-data">
+                    <div class="trick-head">
+                        <span class="trick-author">${e.author}</span>
+                        <span>${e.time}</span>
+                    </div>           
+                        <p class="text">${e.title}</p>
+                        <a href="${e.link}" class="trick-more" target="_blank">Xem chi tiết <i class="lni lni-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>  
+        `
+        post_util_list.insertAdjacentHTML("beforeend", prod)
+    })
+}
+renderPostUtil(postUtil);
 
-// /* =============== post group review =============== */
-// let postReview = [{
-//         author: 'Diệu Nhân',
-//         image: 'assets/images/postGr/post-3.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1335854933497778/',
-//         time: '01/10/2021',
-//         title: 'MỘT SỐ KINH NGHIỆM ĐẠT HỌC BỔNG KHUYẾN KHÍCH HỌC TẬP'
-//     },
-//     {
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-4.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1301559593593979/',
-//         time: '12/08/2021',
-//         title: 'Giới thiệu về Hệ thống điểm tích lũy 4 năm đại học.'
-//     },
-//     {
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-1.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1299457123804226/',
-//         time: '09/08/2021',
-//         title: 'Giới thiệu Hệ thống điểm rèn luyện của trường Đại học Mở'
-//     },
-//     {
-//         author: 'Quang Hà',
-//         image: 'assets/images/postGr/post-2.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1293426214407317/',
-//         time: '31/07/2021',
-//         title: 'Cảm nhận về OU.'
-//     },
-//     {
-//         author: 'Hieu Q.Nguyen',
-//         image: 'assets/images/postGr/post-12.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1263937307356208/',
-//         time: '17/06/2021',
-//         title: 'NGÀNH NGÔN NGỮ ANH TẠI ĐẠI HỌC MỞ TP. HCM'
-//     },
-//     {
-//         author: 'Quang Hà',
-//         image: 'assets/images/postGr/post-6.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1291199234630015/',
-//         time: '28/07/2021',
-//         title: 'Góc nhìn về đại học Mở từ 1 sv năm nhất..'
-//     },
-//     {
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-7.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1268234536926485/',
-//         time: '23/06/2021',
-//         title: 'Review cơ sở 371 Nguyễn Kiệm'
-//     },
-//     {
-//         author: 'Diệu Nhân',
-//         image: 'assets/images/postGr/post-17.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1268858743530731/',
-//         time: '24/06/2021',
-//         title: 'Ngôn ngữ Anh năm nhất cần chuẩn bị gì?'
-//     },
-//     {
-//         author: 'Trần ĐạtK',
-//         image: 'assets/images/postGr/post-16.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1080016299081644/',
-//         time: '27/09/2020',
-//         title: 'Review kiểm tra anh văn đầu vào.'
-//     },
-//     {
-//         author: 'NT Diễm',
-//         image: 'assets/images/postGr/post-15.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1078602749222999/',
-//         time: '25/09/2020',
-//         title: 'Mẹo thuê phòng trọ.'
-//     },
-//     {
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-14.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1191871581229448/',
-//         time: '27/02/2021',
-//         title: 'Review quân sự.'
-//     }
-// ]
+/* =============== post group review =============== */
+let postReview = [{
+        author: 'Diệu Nhân',
+        image: 'assets/images/postGr/post-3.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1335854933497778/',
+        time: '01/10/2021',
+        title: 'MỘT SỐ KINH NGHIỆM ĐẠT HỌC BỔNG KHUYẾN KHÍCH HỌC TẬP'
+    },
+    {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-4.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1301559593593979/',
+        time: '12/08/2021',
+        title: 'Giới thiệu về Hệ thống điểm tích lũy 4 năm đại học.'
+    },
+    {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-1.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1299457123804226/',
+        time: '09/08/2021',
+        title: 'Giới thiệu Hệ thống điểm rèn luyện của trường Đại học Mở'
+    },
+    {
+        author: 'Quang Hà',
+        image: 'assets/images/postGr/post-2.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1293426214407317/',
+        time: '31/07/2021',
+        title: 'Cảm nhận về OU.'
+    },
+    {
+        author: 'Hieu Q.Nguyen',
+        image: 'assets/images/postGr/post-12.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1263937307356208/',
+        time: '17/06/2021',
+        title: 'NGÀNH NGÔN NGỮ ANH TẠI ĐẠI HỌC MỞ TP. HCM'
+    },
+    {
+        author: 'Quang Hà',
+        image: 'assets/images/postGr/post-6.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1291199234630015/',
+        time: '28/07/2021',
+        title: 'Góc nhìn về đại học Mở từ 1 sv năm nhất..'
+    },
+    {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-7.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1268234536926485/',
+        time: '23/06/2021',
+        title: 'Review cơ sở 371 Nguyễn Kiệm'
+    },
+    {
+        author: 'Diệu Nhân',
+        image: 'assets/images/postGr/post-17.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1268858743530731/',
+        time: '24/06/2021',
+        title: 'Ngôn ngữ Anh năm nhất cần chuẩn bị gì?'
+    },
+    {
+        author: 'Trần ĐạtK',
+        image: 'assets/images/postGr/post-16.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1080016299081644/',
+        time: '27/09/2020',
+        title: 'Review kiểm tra anh văn đầu vào.'
+    },
+    {
+        author: 'NT Diễm',
+        image: 'assets/images/postGr/post-15.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1078602749222999/',
+        time: '25/09/2020',
+        title: 'Mẹo thuê phòng trọ.'
+    },
+    {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-14.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1191871581229448/',
+        time: '27/02/2021',
+        title: 'Review quân sự.'
+    }
+]
 
-// let post_review_list = document.querySelector('#group-post-review')
-// renderPostReview = (post) => {
-//     post.forEach(e => {
-//         let prod =
-//             `
-//     <div class="df review-post">
-//         <div class="single-blog mt-30">
-//             <div class="blog-image">
-//                 <img src="${e.image}" alt="blog">       
-//             </div>
-//         <div class="blog-content">
-//             <ul class="meta">
-//                 <li><b>Đăng bởi:</b> <a href="#">${e.author}</a></li>
-//                 <li>${e.time}</li>
-//             </ul>
-//             <p class="text">${e.title}</p>
-//             <a class="more" href="${e.link}"
-//                 target="_blank">Xem
-//                 chi tiết<i class="lni-chevron-right"></i></a>
-//         </div>
-//     </div> <!-- single blog -->
-// </div>
-// `
-//         post_review_list.insertAdjacentHTML("beforeend", prod)
-//     })
-// }
-// renderPostReview(postReview);
+let post_review_list = document.querySelector('#group-post-review')
+renderPostReview = (post) => {
+    post.forEach(e => {
+        let prod =
+            `
+    <div class="df review-post">
+        <div class="single-blog mt-30">
+            <div class="blog-image">
+                <img src="${e.image}" alt="blog">       
+            </div>
+        <div class="blog-content">
+            <ul class="meta">
+                <li><b>Đăng bởi:</b> <a href="#">${e.author}</a></li>
+                <li>${e.time}</li>
+            </ul>
+            <p class="text">${e.title}</p>
+            <a class="more" href="${e.link}"
+                target="_blank">Xem
+                chi tiết<i class="lni-chevron-right"></i></a>
+        </div>
+    </div> <!-- single blog -->
+</div>
+`
+        post_review_list.insertAdjacentHTML("beforeend", prod)
+    })
+}
+renderPostReview(postReview);
 
-// $('.post-review').owlCarousel({
-//     loop: true,
-//     margin: 40,
-//     autoplay: true,
-//     autoHeight: true,
-//     nav: false,
-//     dots: true,
-//     autoplayTimeout: 2000,
-//     responsive: {
-//         0: {
-//             items: 1
-//         },
-//         575: {
-//             items: 2
-//         },
-//         992: {
-//             items: 3
-//         }
-//     }
-// })
+$('.post-review').owlCarousel({
+    loop: true,
+    margin: 40,
+    autoplay: true,
+    autoHeight: true,
+    nav: false,
+    dots: true,
+    autoplayTimeout: 2000,
+    responsive: {
+        0: {
+            items: 1
+        },
+        575: {
+            items: 2
+        },
+        992: {
+            items: 3
+        }
+    }
+})
 
 /* =============== system =============== */
 let system = [{

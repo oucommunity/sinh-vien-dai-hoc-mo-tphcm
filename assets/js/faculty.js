@@ -282,7 +282,7 @@ renderFaculty = (faculties) => {
                     <img src="${el.imageScr}" alt="image ${el.facultyName}" />
                 </div>
                 <div class="blog-content">
-                    <h4>
+                    <h4 class="mt-2">
                     ${el.facultyName} <br />
                     ${e.address}
                     </h4>
