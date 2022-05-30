@@ -6,10 +6,9 @@ $(function () {
         document.body.classList.add("loaded");
         Swal.fire({
             title: 'Thông báo !',
-            html: '<span class="font-weight-bold">Đã mở đăng ký xét tuyển học bạ 2022</span><br>' +
-                '<p class="text-left mt-15"><b>⌚ Thời gian xét tuyển:</b> Từ 9h 04/04/2022 đến 17h 30/05/2022</p>' +
-                '<p class="text-left"><b>📌 Hình thức xét:</b> online (chỉ nhận hồ sơ khi trúng tuyển)</p>' +
-                '<p class="text-left"><b>Xem hướng dẫn:</p> <p class="text-left">📌 PT xét học bạ 3 năm THPT: <a href="https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/huong-dan-ho-so-tuyen-sinh/huong-dan-dang-ky-xet-tuyen-online/phuong-thuc-xet-hoc-ba-3-nam-thpt" target="_blank">Nhấn vào đây !</a></p><p class="text-left">📌 PT xét học bạ 3 năm có CCNN: <a href="https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/huong-dan-ho-so-tuyen-sinh/huong-dan-dang-ky-xet-tuyen-online/phuong-thuc-xet-hoc-ba-3-nam-thpt-co-chung-chi-ngoai-ngu" target="_blank">Nhấn vào đây !</a></p><p class="text-left">📌 PT xét học bạ HSG: <a href="https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/huong-dan-ho-so-tuyen-sinh/huong-dan-dang-ky-xet-tuyen-online/phuong-thuc-uu-tien-xet-hoc-sinh-gioi" target="_blank">Nhấn vào đây !</a></p></p>'
+            html: '<span class="font-weight-bold">Đã đóng cổng đăng ký xét tuyển học bạ 2022</span><br>' +
+                '<p class="text-left mt-3">Kết quả sẽ có trước khi thi THPTQG (trường chỉ nhận hồ sơ khi có kết quả trúng tuyển). Sinh viên tự tra kết quả tuyển sinh theo mã định danh/CCCD đã đăng kí (Trường sẽ gửi link kiểm tra kết quả qua email đăng ký và đăng trong group). Bạn thường xuyên theo dõi fanpage và group "Cộng đồng Sinh viên Đại học Mở Tp.HCM - HCMCOU" để cập nhật thông tin nhé.</p>',
+            footer: '<a href="https://www.facebook.com/groups/ou.community" target="_blank" class="text-center">Vào group <span class="text-danger">"Cộng đồng Sinh viên Đại học Mở Tp.HCM - HCMCOU"</span> để biết nhiều thông tin hơn. Nhấn vào đây!</a>'
         });
     });
 
