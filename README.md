@@ -25,4 +25,4 @@ Website sinh viên Đại học Mở Tp.HCM
 
 ![config](https://res.cloudinary.com/thanhnam/image/upload/v1652323261/background-banner/homepage_jplor3.png)
 
-# Link website: [Trang Sinh viên Đại học Mở Tp.HCM](https://oucommunity.github.io/sinh-vien-dai-hoc-mo-tphcm)
+# Link website: [Trang Sinh viên Đại học Mở Tp.HCM](https://ou-community.vercel.app/)

@@ -1,6 +1,8 @@
 {
-  "origins": [
-    "https://oucommunity.github.io",
-    "https://ou-community.vercel.app"
-  ]
+  "origins": ["https://oucommunity.github.io", "https://ou-community.vercel.app"],
+  "originsRegex": [
+    "https://base-git-([A-z0-9]|-)*ou-community\\.vercel\\.app",
+    "http://localhost:[0-9]+"
+  ],
+  "defaultCommentOrder": "newest"
 }
