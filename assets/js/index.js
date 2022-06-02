@@ -14,6 +14,7 @@ window.addEventListener("load", () => {
     });
 
     // Porfolio isotope and filter 
+    
     var facultyIsotope = $('.faculty-container').isotope({
         itemSelector: '.faculty-items'
     });
@@ -194,6 +195,14 @@ renderNews(news);
 /* =============== post group =============== */
 let post = [{
         author: 'Thành Nam',
+        image: 'assets/images/postGr/post-6.jpg',
+        image_hot: 'assets/images/postGr/new.gif',
+        link: 'https://www.facebook.com/groups/ou.community/posts/556646679346749/',
+        time: '10/05/2022',
+        title: '[THÔNG BÁO] Thí sinh tự do xét tuyển học bạ phải đăng ký vào hệ thống quản lý thi của Bộ GD&ĐT'
+    },
+    {
+        author: 'Thành Nam',
         image: 'assets/images/postGr/post-8.png',
         image_hot: 'assets/images/postGr/new.gif',
         link: 'https://www.facebook.com/groups/oumembers/posts/1457381638011773/',
@@ -211,7 +220,6 @@ let post = [{
     {
         author: 'Thành Nam',
         image: 'assets/images/postGr/post-11.jpg',
-        image_hot: 'assets/images/postGr/new.gif',
         link: 'https://www.facebook.com/groups/oumembers/posts/1444214249328512/',
         time: '15/03/2022',
         title: 'Giới thiệu Ngành - Chuyên ngành đào tạo - Cơ hội việc làm ở Trường ĐH Mở Tp.HCM'
@@ -222,19 +230,13 @@ let post = [{
         link: 'https://www.facebook.com/groups/oumembers/posts/1435431036873500/',
         time: '02/03/2022',
         title: 'Chỉ tiêu tuyển sinh - Học phí năm 2022 - 2023 & Điểm chuẩn các năm'
-    }, {
+    },
+    {
         author: 'Thành Nam',
         image: 'assets/images/postGr/post-13.jpg',
         link: 'https://www.facebook.com/groups/oumembers/posts/1428577757558828/',
         time: '20/02/2022',
         title: 'Công cụ tính điểm xét tuyển (Xét học bạ & xét thi THPT)'
-    },
-    {
-        author: 'Thành Nam',
-        image: 'assets/images/postGr/post-14.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1426346964448574/',
-        time: '17/02/2022',
-        title: 'Thông tin tuyển sinh Đại học chính quy năm 2022'
     }
 ]
 
@@ -246,7 +248,7 @@ renderPost = (post) => {
             <div class="df col-lg-4 col-md-6 col-sm-6">
                 <div class="single-blog mt-30">
                     <div class="blog-image">
-                        <img src="${e.image}" alt="blog">       
+                        <img src="${e.image}" alt="post" loading="lazy">       
             `
 
         if (!e.image_hot == '')
@@ -273,75 +275,75 @@ renderPost = (post) => {
 renderPost(post);
 
 /* =============== post group utility =============== */
-let postUtil = [{
-        author: 'Thành Nam',
-        image: 'assets/images/postGr/post-16.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1347522502331021/',
-        time: '18/10/2021',
-        title: 'Hướng dẫn sửa lỗi font slide của giảng viên'
-    },
-    {
-        author: 'Thảo Vy Ngo ',
-        image: 'assets/images/postGr/post-15.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1337789979970940/',
-        time: '04/10/2021',
-        title: 'NOTION PERSONAL PRO - XÀI FREE NHỜ CÓ MAIL TRƯỜNG'
-    },
-    {
-        author: 'Thành Nam',
-        image: 'assets/images/postGr/post-14.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1320830008333604/',
-        time: '09/09/2021',
-        title: 'Chatbot ôn luyện tin học và anh văn đầu vào'
-    },
-    {
-        author: 'Thảo Vy Ngo',
-        image: 'assets/images/postGr/post-13.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1343930692690202/',
-        time: '13/10/2021',
-        title: 'CANVA FOR EDUCATION - XÀI FREE NHỜ CÓ MAIL TRƯỜNG'
-    },
-    {
-        author: 'Thành Nam',
-        image: 'assets/images/postGr/post-10.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1311843205898951/',
-        time: '27/08/2021',
-        title: 'Share template kho tài liệu tiếng anh tự học'
-    },
-    {
-        author: 'Thành Nam',
-        image: 'assets/images/postGr/post-12.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1284282711988334/',
-        time: '18/07/2021',
-        title: 'Hướng dẫn chụp ảnh 3x4 upload web.'
-    }
-]
-
-let post_util_list = document.querySelector('#group-post-util')
-renderPostUtil = (post) => {
-    post.forEach(function (e) {
-        let prod =
-            `
-        <div class="df col-lg-4 col-md-6 col-sm-6">
-            <div class="trick-box">
-                <div class="trick-img">
-                    <img src="${e.image}" alt="blog" />
-                </div>
-                <div class="trick-data">
-                    <div class="trick-head">
-                        <span class="trick-author">${e.author}</span>
-                        <span>${e.time}</span>
-                    </div>           
-                        <p class="text">${e.title}</p>
-                        <a href="${e.link}" class="trick-more" target="_blank">Xem chi tiết <i class="lni lni-arrow-right"></i></a>
-                </div>
-            </div>
-        </div>  
-        `
-        post_util_list.insertAdjacentHTML("beforeend", prod)
-    })
-}
-renderPostUtil(postUtil);
+// let postUtil = [{
+//         author: 'Thành Nam',
+//         image: 'assets/images/postGr/post-16.jpg',
+//         link: 'https://www.facebook.com/groups/oumembers/posts/1347522502331021/',
+//         time: '18/10/2021',
+//         title: 'Hướng dẫn sửa lỗi font slide của giảng viên'
+//     },
+//     {
+//         author: 'Thảo Vy Ngo ',
+//         image: 'assets/images/postGr/post-15.jpg',
+//         link: 'https://www.facebook.com/groups/oumembers/posts/1337789979970940/',
+//         time: '04/10/2021',
+//         title: 'NOTION PERSONAL PRO - XÀI FREE NHỜ CÓ MAIL TRƯỜNG'
+//     },
+//     {
+//         author: 'Thành Nam',
+//         image: 'assets/images/postGr/post-14.jpg',
+//         link: 'https://www.facebook.com/groups/oumembers/posts/1320830008333604/',
+//         time: '09/09/2021',
+//         title: 'Chatbot ôn luyện tin học và anh văn đầu vào'
+//     },
+//     {
+//         author: 'Thảo Vy Ngo',
+//         image: 'assets/images/postGr/post-13.jpg',
+//         link: 'https://www.facebook.com/groups/oumembers/posts/1343930692690202/',
+//         time: '13/10/2021',
+//         title: 'CANVA FOR EDUCATION - XÀI FREE NHỜ CÓ MAIL TRƯỜNG'
+//     },
+//     {
+//         author: 'Thành Nam',
+//         image: 'assets/images/postGr/post-10.jpg',
+//         link: 'https://www.facebook.com/groups/oumembers/posts/1311843205898951/',
+//         time: '27/08/2021',
+//         title: 'Share template kho tài liệu tiếng anh tự học'
+//     },
+//     {
+//         author: 'Thành Nam',
+//         image: 'assets/images/postGr/post-12.jpg',
+//         link: 'https://www.facebook.com/groups/oumembers/posts/1284282711988334/',
+//         time: '18/07/2021',
+//         title: 'Hướng dẫn chụp ảnh 3x4 upload web.'
+//     }
+// ]
+// 
+// let post_util_list = document.querySelector('#group-post-util')
+// renderPostUtil = (post) => {
+//     post.forEach(function (e) {
+//         let prod =
+//             `
+//         <div class="df col-lg-4 col-md-6 col-sm-6">
+//             <div class="trick-box">
+//                 <div class="trick-img">
+//                     <img src="${e.image}" alt="mẹo và tiện ích" loading="lazy" />
+//                 </div>
+//                 <div class="trick-data">
+//                     <div class="trick-head">
+//                         <span class="trick-author">${e.author}</span>
+//                         <span>${e.time}</span>
+//                     </div>           
+//                         <p class="text">${e.title}</p>
+//                         <a href="${e.link}" class="trick-more" target="_blank">Xem chi tiết <i class="lni lni-arrow-right"></i></a>
+//                 </div>
+//             </div>
+//         </div>  
+//         `
+//         post_util_list.insertAdjacentHTML("beforeend", prod)
+//     })
+// }
+// renderPostUtil(postUtil);
 
 /* =============== post group review =============== */
 let postReview = [{
@@ -431,7 +433,7 @@ renderPostReview = (post) => {
     <div class="df review-post">
         <div class="single-blog mt-30">
             <div class="blog-image">
-                <img src="${e.image}" alt="blog">       
+                <img src="${e.image}" alt="blog" loading="lazy">       
             </div>
         <div class="blog-content">
             <ul class="meta">
@@ -537,7 +539,7 @@ renderSystem = (system) => {
         <div class="df col-lg-4 col-md-6 col-sm-6">
             <div class="single-blog mt-30">
                 <div class="blog-image">
-                    <img src="${e.image}" alt="blog">
+                    <img src="${e.image}" alt="blog" loading="lazy">
                 </div>
                 <div class="blog-content">
                     <ul class="meta">

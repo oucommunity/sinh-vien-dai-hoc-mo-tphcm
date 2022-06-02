@@ -1,5 +1,36 @@
 let post = [{
         author: 'Thành Nam',
+        image: 'assets/images/postGr/post-7.png',
+        image_hot: 'assets/images/postGr/new.gif',
+        link: 'https://www.facebook.com/groups/ou.community/posts/556646679346749/',
+        time: '10/05/2022',
+        title: '[THÔNG BÁO] Thí sinh tự do xét tuyển học bạ phải đăng ký vào hệ thống quản lý thi của Bộ GD&ĐT'
+    },
+    {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-8.png',
+        image_hot: 'assets/images/postGr/new.gif',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1457381638011773/',
+        time: '04/04/2022',
+        title: 'Cần chuẩn bị gì trước khi đăng ký xét học bạ online ?'
+    },
+    {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-9.jpg',
+        image_hot: 'assets/images/postGr/new.gif',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1455695938180343/',
+        time: '01/04/2022',
+        title: 'Thông báo đăng ký tuyển sinh học bạ Đại học Chính quy năm 2022'
+    },
+    {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-11.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1444214249328512/',
+        time: '15/03/2022',
+        title: 'Giới thiệu Ngành - Chuyên ngành đào tạo - Cơ hội việc làm ở Trường ĐH Mở Tp.HCM'
+    },
+    {
+        author: 'Thành Nam',
         image: 'assets/images/postGr/post-12.jpg',
         image_hot: 'assets/images/postGr/new.gif',
         link: 'https://www.facebook.com/groups/oumembers/posts/1435431036873500/',

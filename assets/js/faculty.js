@@ -7,17 +7,17 @@ let faculties = [{
         listFaculty: [{
                 facultyName: 'Ngành Công Nghệ Thông Tin',
                 imageScr: 'assets/images/postGr/post-1.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-cong-nghe-thong-tin/nganh-cong-nghe-thong-tin'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-cong-nghe-thong-tin/nganh-cong-nghe-thong-tin'
             },
             {
                 facultyName: 'Ngành Hệ Thống Thông Tin Quản Lý',
                 imageScr: 'assets/images/postGr/post-3.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-cong-nghe-thong-tin/nganh-he-thong-thong-tin-quan-ly'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-cong-nghe-thong-tin/nganh-he-thong-thong-tin-quan-ly'
             },
             {
                 facultyName: 'Ngành Khoa Học Máy Tính',
                 imageScr: 'assets/images/postGr/post-2.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-cong-nghe-thong-tin/nganh-khoa-hoc-may-tinh'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-cong-nghe-thong-tin/nganh-khoa-hoc-may-tinh'
             },
         ]
     },
@@ -30,52 +30,52 @@ let faculties = [{
         listFaculty: [{
                 facultyName: 'Ngành Ngành Luật Kinh Tế CLC',
                 imageScr: 'assets/images/postGr/post-4.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-luat-kinh-te-clc'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-luat-kinh-te-clc'
             },
             {
                 facultyName: 'Ngành Ngôn ngữ Anh CLC',
                 imageScr: 'assets/images/postGr/post-5.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-ngon-ngu-anh-clc'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-ngon-ngu-anh-clc'
             },
             {
                 facultyName: 'Ngành Ngôn ngữ Trung CLC',
                 imageScr: 'assets/images/postGr/post-6.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-ngon-ngu-trung-clc'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-ngon-ngu-trung-clc'
             },
             {
                 facultyName: 'Ngành Ngôn ngữ Nhật CLC',
                 imageScr: 'assets/images/postGr/post-7.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-ngon-ngu-nhat-clc'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-ngon-ngu-nhat-clc'
             },
             {
                 facultyName: 'Ngành CNKT Công Trình Xây Dựng CLC',
                 imageScr: 'assets/images/postGr/post-8.png',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-cnkt-cong-trinh-xay-dung-clc'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-cnkt-cong-trinh-xay-dung-clc'
             },
             {
                 facultyName: 'Ngành Khoa Học Máy Tính CLC',
                 imageScr: 'assets/images/postGr/post-9.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-khoa-hoc-may-tinh-clc'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-khoa-hoc-may-tinh-clc'
             },
             {
                 facultyName: 'Ngành Công Nghệ Sinh Học CLC',
                 imageScr: 'assets/images/postGr/post-10.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-cong-nghe-sinh-hoc-clc'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-cong-nghe-sinh-hoc-clc'
             },
             {
                 facultyName: 'Ngành Quản Trị Kinh Doanh CLC',
                 imageScr: 'assets/images/postGr/post-11.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-quan-tri-kinh-doanh-clc'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-quan-tri-kinh-doanh-clc'
             },
             {
                 facultyName: 'Ngành Tài Chính Ngân Hàng CLC',
                 imageScr: 'assets/images/postGr/post-12.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-tai-chinh-ngan-hang-clc'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-tai-chinh-ngan-hang-clc'
             },
             {
                 facultyName: 'Ngành Kế Toán CLC',
                 imageScr: 'assets/images/postGr/post-13.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-ke-toan-clc'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-dao-tao-dac-biet-cac-nganh-clc/nganh-ke-toan-clc'
             },
             {
                 facultyName: 'Ngành Kinh tế CLC (ngành mới)',
@@ -93,12 +93,12 @@ let faculties = [{
         listFaculty: [{
                 facultyName: 'Ngành Kế toán',
                 imageScr: 'assets/images/postGr/post-1.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-ke-toan-kiem-toan/nganh-ke-toan'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-ke-toan-kiem-toan/nganh-ke-toan'
             },
             {
                 facultyName: 'Ngành Kiểm toán',
                 imageScr: 'assets/images/postGr/post-2.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-ke-toan-kiem-toan/nganh-kiem-toan'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-ke-toan-kiem-toan/nganh-kiem-toan'
             }
         ]
     },
@@ -111,32 +111,32 @@ let faculties = [{
         listFaculty: [{
                 facultyName: 'Ngành Quản trị kinh doanh',
                 imageScr: 'assets/images/postGr/post-3.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-quan-tri-kinh-doanh/nganh-quan-tri-kinh-doanh'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-quan-tri-kinh-doanh/nganh-quan-tri-kinh-doanh'
             },
             {
                 facultyName: 'Ngành Marketing',
                 imageScr: 'assets/images/postGr/post-4.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-quan-tri-kinh-doanh/nganh-marketing'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-quan-tri-kinh-doanh/nganh-marketing'
             },
             {
                 facultyName: 'Ngành Kinh doanh quốc tế',
                 imageScr: 'assets/images/postGr/post-5.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-quan-tri-kinh-doanh/nganh-kinh-doanh-quoc-te'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-quan-tri-kinh-doanh/nganh-kinh-doanh-quoc-te'
             },
             {
                 facultyName: 'Ngành Quản trị nhân lực',
                 imageScr: 'assets/images/postGr/post-6.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-quan-tri-kinh-doanh/nganh-quan-tri-nhan-luc'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-quan-tri-kinh-doanh/nganh-quan-tri-nhan-luc'
             },
             {
                 facultyName: 'Ngành Du lịch',
                 imageScr: 'assets/images/postGr/post-7.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-quan-tri-kinh-doanh/nganh-du-lich'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-quan-tri-kinh-doanh/nganh-du-lich'
             },
             {
                 facultyName: 'Ngành Logistics',
                 imageScr: 'assets/images/postGr/post-9.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-quan-tri-kinh-doanh/nganh-logistics-and-quan-ly-chuoi-cung-ung'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-quan-tri-kinh-doanh/nganh-logistics-and-quan-ly-chuoi-cung-ung'
             }
         ]
     },
@@ -149,12 +149,12 @@ let faculties = [{
         listFaculty: [{
                 facultyName: 'Ngành Công Nghệ Sinh Học',
                 imageScr: 'assets/images/postGr/post-1.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-cong-nghe-sinh-hoc/nganh-cong-nghe-sinh-hoc'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-cong-nghe-sinh-hoc/nganh-cong-nghe-sinh-hoc'
             },
             {
                 facultyName: 'Ngành Công Nghệ Thực Phẩm',
                 imageScr: 'assets/images/postGr/post-2.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-cong-nghe-sinh-hoc/nganh-cong-nghe-thuc-pham'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-cong-nghe-sinh-hoc/nganh-cong-nghe-thuc-pham'
             }
         ]
     },
@@ -167,12 +167,12 @@ let faculties = [{
         listFaculty: [{
                 facultyName: 'Ngành Quản lý Xây dựng',
                 imageScr: 'assets/images/postGr/post-3.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-xay-dung/nganh-quan-ly-xay-dung'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-xay-dung/nganh-quan-ly-xay-dung'
             },
             {
                 facultyName: 'Ngành Công Nghệ Kỹ Thuật Công trình xây dựng',
                 imageScr: 'assets/images/postGr/post-4.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-xay-dung/nganh-cong-nghe-ky-thuat-cong-trinh-xay-dung'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-xay-dung/nganh-cong-nghe-ky-thuat-cong-trinh-xay-dung'
             }
         ]
     },
@@ -185,12 +185,12 @@ let faculties = [{
         listFaculty: [{
                 facultyName: 'Ngành Luật',
                 imageScr: 'assets/images/postGr/post-5.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-luat/nganh-luat'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-luat/nganh-luat'
             },
             {
                 facultyName: 'Ngành Luật kinh tế',
                 imageScr: 'assets/images/postGr/post-6.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-luat/nganh-luat-kinh-te'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-luat/nganh-luat-kinh-te'
             }
         ]
     },
@@ -203,7 +203,7 @@ let faculties = [{
         listFaculty: [{
                 facultyName: 'Ngành Kinh tế',
                 imageScr: 'assets/images/postGr/post-7.jpg',
-                linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-kinh-te-and-quan-ly-cong/nganh-kinh-te'
+                linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-kinh-te-and-quan-ly-cong/nganh-kinh-te'
             },
             {
                 facultyName: 'Ngành Quản lý công (ngành mới)',
@@ -221,7 +221,7 @@ let faculties = [{
         listFaculty: [{
             facultyName: 'Ngành Tài chính ngân hàng',
             imageScr: 'assets/images/postGr/post-7.jpg',
-            linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-tai-chinh-ngan-hang/nganh-tai-chinh-ngan-hang'
+            linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-tai-chinh-ngan-hang/nganh-tai-chinh-ngan-hang'
         }]
     },
     {
@@ -233,19 +233,19 @@ let faculties = [{
         listFaculty: [{
             facultyName: 'Ngành Ngôn ngữ Anh',
             imageScr: 'assets/images/postGr/post-9.jpg',
-            linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-ngoai-ngu/nganh-ngon-ngu-anh'
+            linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-ngoai-ngu/nganh-ngon-ngu-anh'
         }, {
             facultyName: 'Ngành Ngôn ngữ Trung',
             imageScr: 'assets/images/postGr/post-10.jpg',
-            linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-ngoai-ngu/nganh-ngon-ngu-trung'
+            linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-ngoai-ngu/nganh-ngon-ngu-trung'
         }, {
             facultyName: 'Ngành Ngôn ngữ Nhật',
             imageScr: 'assets/images/postGr/post-11.jpg',
-            linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-ngoai-ngu/nganh-ngon-ngu-nhat'
+            linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-ngoai-ngu/nganh-ngon-ngu-nhat'
         }, {
             facultyName: 'Ngành Ngôn ngữ Hàn',
             imageScr: 'assets/images/postGr/post-12.jpg',
-            linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-ngoai-ngu/nganh-ngon-ngu-han'
+            linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-ngoai-ngu/nganh-ngon-ngu-han'
         }]
     },
     {
@@ -257,15 +257,15 @@ let faculties = [{
         listFaculty: [{
             facultyName: 'Ngành Công tác xã hội',
             imageScr: 'assets/images/postGr/post-9.jpg',
-            linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-xa-hoi-hoc-cong-tac-xa-hoi-dong-nam-a/nganh-cong-tac-xa-hoi'
+            linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-xa-hoi-hoc-cong-tac-xa-hoi-dong-nam-a/nganh-cong-tac-xa-hoi'
         }, {
             facultyName: 'Ngành Đông nam á học',
             imageScr: 'assets/images/postGr/post-10.jpg',
-            linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-xa-hoi-hoc-cong-tac-xa-hoi-dong-nam-a/nganh-dong-nam-a-hoc'
+            linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-xa-hoi-hoc-cong-tac-xa-hoi-dong-nam-a/nganh-dong-nam-a-hoc'
         }, {
             facultyName: 'Ngành Xã hội học',
             imageScr: 'assets/images/postGr/post-11.jpg',
-            linkIntro: 'https://thanhnam.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-xa-hoi-hoc-cong-tac-xa-hoi-dong-nam-a/nganh-xa-hoi-hoc'
+            linkIntro: 'https://ou-community.gitbook.io/so-tay-tuyen-sinh-ou/gioi-thieu-khoa-nganh-dao-tao/khoa-xa-hoi-hoc-cong-tac-xa-hoi-dong-nam-a/nganh-xa-hoi-hoc'
         }]
     }
 ]
@@ -279,7 +279,7 @@ renderFaculty = (faculties) => {
             <div class="df col-lg-4 col-md-6 col-sm-12 faculty-items ${e.classFacultiesName}">
             <div class="faculty single-blog mb-30">
                 <div class="blog-image">
-                    <img src="${el.imageScr}" alt="image ${el.facultyName}" />
+                    <img src="${el.imageScr}" alt="image ${el.facultyName}"/>
                 </div>
                 <div class="blog-content">
                     <h4 class="mt-2">

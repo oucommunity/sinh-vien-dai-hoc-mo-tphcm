@@ -1,6 +1,6 @@
 # Trang sinh viên Đại học Mở Tp.HCM - OU HCMC (Open University)
 
-Website sinh viên Đại học Mở Tp.HCM
+Website Trang Sinh viên Đại học Mở Tp.HCM
 
 # Mô tả chung
 
@@ -8,8 +8,8 @@ Website sinh viên Đại học Mở Tp.HCM
 - Framework: không sử dụng
 - Library: `Datatable`, `Gsap`, `Jquery`, `Slick Carousel`, `Sweet Alert 2`
 - Database: không sử dụng
-- Plugin: `messenger - chatbot`, `Gitbook`
-- Nền tảng deploy: `Github page`
+- Plugin: `Messenger - chatbot`, `Gitbook`, `Giscus`
+- Nền tảng deploy: `Github page`, `Vercel`
 - IDE, Công cụ: `Vscode`, `Git/GitHub`
 
 # Chức năng
@@ -20,9 +20,10 @@ Website sinh viên Đại học Mở Tp.HCM
 - Thông tin điểm học bạ - thi qua từng năm
 - Câu lạc bộ
 - Tính điểm xét tuyển 3 năm THPT
+- Bình luận
 
 # Giao diện trang web
 
 ![config](https://res.cloudinary.com/thanhnam/image/upload/v1652323261/background-banner/homepage_jplor3.png)
 
-# Link website: [Trang Sinh viên Đại học Mở Tp.HCM](https://ou-community.vercel.app/)
+# Link website: [Trang Sinh viên Đại học Mở Tp.HCM](https://oucommunity.vercel.app)

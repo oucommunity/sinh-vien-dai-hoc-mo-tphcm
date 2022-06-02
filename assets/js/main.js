@@ -7,7 +7,7 @@ $(function () {
         Swal.fire({
             title: 'Thông báo !',
             html: '<span class="font-weight-bold">Đã đóng cổng đăng ký xét tuyển học bạ 2022</span><br>' +
-                '<p class="text-left mt-3">Kết quả sẽ có trước khi thi THPTQG (trường chỉ nhận hồ sơ khi có kết quả trúng tuyển). Sinh viên tự tra kết quả tuyển sinh theo mã định danh/CCCD đã đăng kí (Trường sẽ gửi link kiểm tra kết quả qua email đăng ký và đăng trong group). Bạn thường xuyên theo dõi fanpage và group "Cộng đồng Sinh viên Đại học Mở Tp.HCM - HCMCOU" để cập nhật thông tin nhé.</p>',
+                '<p class="text-left mt-3"><span class="font-weight-bold">Kết quả sẽ có vào cuối tháng 6</span> (trường chỉ nhận hồ sơ khi có kết quả trúng tuyển). Sinh viên tự tra kết quả tuyển sinh theo mã định danh/CCCD đã đăng kí (Trường sẽ gửi link kiểm tra kết quả qua email đăng ký và đăng trong group). Bạn thường xuyên theo dõi fanpage và group "Cộng đồng Sinh viên Đại học Mở Tp.HCM - HCMCOU" để cập nhật thông tin nhé.</p>',
             footer: '<a href="https://www.facebook.com/groups/ou.community" target="_blank" class="text-center">Vào group <span class="text-danger">"Cộng đồng Sinh viên Đại học Mở Tp.HCM - HCMCOU"</span> để biết nhiều thông tin hơn. Nhấn vào đây!</a>'
         });
     });
