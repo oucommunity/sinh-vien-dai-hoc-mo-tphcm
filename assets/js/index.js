@@ -5,25 +5,11 @@ window.addEventListener("load", () => {
     $(window).scroll(function () {
         var scrollbarLocation = $(this).scrollTop();
         scrollLink.each(function () {
-            var sectionOffset = $(this.hash).offset().top - 73;
+            var sectionOffset = $(this.hash).offset().top - 93;
             if (sectionOffset <= scrollbarLocation) {
                 $(this).parent().addClass("active");
                 $(this).parent().siblings().removeClass("active");
             }
-        });
-    });
-
-    // Porfolio isotope and filter 
-    
-    var facultyIsotope = $('.faculty-container').isotope({
-        itemSelector: '.faculty-items'
-    });
-    $('#faculty-filters li').on('click', function () {
-        $("#faculty-filters li").removeClass('active');
-        $(this).addClass('active');
-
-        facultyIsotope.isotope({
-            filter: $(this).data('filter')
         });
     });
 });
@@ -50,7 +36,7 @@ let locatStudy = [{
     {
         id: 'BD…',
         location: 'CS3 – Trường ĐH Mở TP.HCM',
-        address: '68 Lê Thị Trung, Phường Phú Lợi, TP. Thủ Dầu Một, Bình Dương',
+        address: '68 Lê Thị Trung, Phường Phú Lợi, TP. Thủ Dầu Một',
         note: 'Khu thực hành khoa công nghệ sinh học'
     },
     {
@@ -245,8 +231,8 @@ renderPost = (post) => {
     post.forEach(function (e) {
         let prod =
             `
-            <div class="df col-lg-4 col-md-6 col-sm-6">
-                <div class="single-blog mt-30">
+            <div class="df col-lg-4 col-md-6 col-sm-6 col-11">
+                <div class="single-blog mt-35">
                     <div class="blog-image">
                         <img src="${e.image}" alt="post" loading="lazy">       
             `
@@ -259,7 +245,7 @@ renderPost = (post) => {
                 <div class="blog-content">
                     <ul class="meta">
                         <li><b>Đăng bởi:</b> <a href="#">${e.author}</a></li>
-                        <li>${e.time}</li>
+                        <li style="font-size:14px"><b><i class="fas fa-clock"></i> ${e.time}</b></li>
                     </ul>
                     <p class="text">${e.title}</p>
                     <a class="more" href="${e.link}"
@@ -452,6 +438,12 @@ renderPostReview = (post) => {
     })
 }
 renderPostReview(postReview);
+$(window).on('load', function () {
+    if (window.innerWidth <= 575)
+        $('#group-post-review .review-post').addClass("col-11")
+    else
+        $('#group-post-review .review-post').removeClass("col-11")
+})
 
 $('.post-review').owlCarousel({
     loop: true,
@@ -461,6 +453,7 @@ $('.post-review').owlCarousel({
     nav: false,
     dots: true,
     autoplayTimeout: 2000,
+    autoplaySpeed: 1500,
     responsive: {
         0: {
             items: 1
@@ -536,8 +529,8 @@ let system_list = document.querySelector('#system-content')
 renderSystem = (system) => {
     system.forEach(function (e) {
         let prod = `
-        <div class="df col-lg-4 col-md-6 col-sm-6">
-            <div class="single-blog mt-30">
+        <div class="df col-lg-4 col-md-6 col-sm-6 col-11">
+            <div class="single-blog single-blog-border mt-30">
                 <div class="blog-image">
                     <img src="${e.image}" alt="blog" loading="lazy">
                 </div>

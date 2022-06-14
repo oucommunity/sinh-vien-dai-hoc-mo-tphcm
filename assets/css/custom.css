@@ -38,6 +38,8 @@
 
 .club ul li {
     margin-top: 7px;
+    list-style-type: disc;
+    list-style-position: inside;
 }
 
 .neumorphism {
@@ -143,11 +145,42 @@
 
 #group,
 #faculty {
-    background-image: url(../images/bg/section_bg1.png.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     padding: 50px 0;
+    background: #ecf2f3;
+    position: relative;
+}
+
+.bg,
+.bg1,
+.bg2 {
+    position: relative;
+}
+
+.bg::before,
+.bg1::before,
+.bg2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    background: url(../images/bg/banner-page-before.png) 50% no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 60px;
+}
+
+.bg1::before,
+.bg2::before {
+    bottom: -75px;
+    z-index: 999;
+    transform: rotate(180deg);
+}
+
+.bg2::before {
+    bottom: -105px;
 }
 
 .pagination>li:first-child>a,
@@ -314,6 +347,10 @@ label {
     line-height: unset;
 }
 
+.notice-grade {
+    list-style-type: decimal;
+    margin-left: 45px;
+}
 
 /* Toast */
 .toast {

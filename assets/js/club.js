@@ -237,30 +237,25 @@ let clubs = [{
 
 let clubsRender = document.querySelector('#clubs')
 renderClubs = (clubs) => {
+    var countClub = 0;
     clubs.forEach(e => {
         var clubList = '';
-        var elink;
+        var elink, countInner = 0;
         e.list.forEach(el => {
-            elink =
-                `<li><span class="font-weight-bold">${el.name}: </span> <a href="${el.link}"
-                target="_blank">${el.link}</a></li>`
-            clubList += elink
+            elink = `<span><a href="${el.link}"target="_blank">${el.name}</a></span>`
+            countInner++;
+            if (countInner != 1)
+                clubList += ', ' + elink
+            else
+                clubList += elink
         })
+        clubList = clubList.trim().replace('^', ',')
         let prod = `
         <!-- ${e.clubName} -->
-        <div class="df col-lg-4 col-md-6 col-sm-12">
-        <div class="club single-blog mt-30">
-            <div class="blog-image">
-                <img src="${e.imageScr}" alt="img ${e.clubName}" loading="lazy" />
+            <div class="blog-content ml-15">
+                <p>${++countClub}. <b>${e.clubName}:</b> ${clubList}</p>
             </div>
-            <div class="blog-content">
-                <h4>${e.clubName}</h4>
-                <ul>
-                ${clubList}
-                </ul>
-            </div>
-        </div>
-    </div>
+    
 `
         clubsRender.insertAdjacentHTML("beforeend", prod)
     })

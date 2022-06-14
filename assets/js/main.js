@@ -47,19 +47,19 @@ $(function () {
 
 
     //====== Magnific Popup
-    $('.video-popup').magnificPopup({
-        type: 'iframe'
-        // other options
-    });
+    // $('.video-popup').magnificPopup({
+    //     type: 'iframe'
+    //     // other options
+    // });
 
 
     //===== Magnific Popup
-    $('.image-popup').magnificPopup({
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
+    // $('.image-popup').magnificPopup({
+    //     type: 'image',
+    //     gallery: {
+    //         enabled: true
+    //     }
+    // });
 
     //===== Back to top
 
