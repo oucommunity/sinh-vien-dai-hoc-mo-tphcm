@@ -39,6 +39,10 @@ a:hover {
   text-decoration: none;
 }
 
+a:hover {
+  color: #ea5656;
+}
+
 i,
 span,
 a {
@@ -744,10 +748,13 @@ p {
 .header-hero-content .text {
   color: #fff;
   margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .header-hero-content .main-btn {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .header-hero-image {
@@ -1462,17 +1469,13 @@ p {
 .footer-about .text {
   color: #fff;
   line-height: 30px;
-  margin-top: 30px;
+  margin-top: 90px;
 }
 
 .footer-title .title {
   font-size: 24px;
   font-weight: 700;
   color: #fff;
-}
-
-.link-wrapper {
-  padding: 0 35px;
 }
 
 @media (max-width: 991px) {
@@ -1536,7 +1539,7 @@ p {
 }
 
 .link-wrapper .link li p {
-  color: #c7c7c7;
+  color: #fafafa;
 }
 
 .link-wrapper .link li a {
@@ -1554,7 +1557,7 @@ p {
 }
 
 .footer-copyright {
-  padding: 190px 0 20px;
+  padding: 230px 0 20px;
 }
 
 .copyright-content {
@@ -1635,7 +1638,7 @@ p {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  border-radius: 10px;
+  border-radius: 50%;
   background: -webkit-linear-gradient(left, #361cc1 0%, #2e82ef 100%);
   background: -o-linear-gradient(left, #361cc1 0%, #2e82ef 100%);
   background: linear-gradient(to right, #361cc1 0%, #2e82ef 100%);
@@ -1648,10 +1651,10 @@ p {
   -o-transition: all 0.4s ease-out;
   visibility: hidden;
   opacity: 0;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .back-to-top.active {

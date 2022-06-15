@@ -45,7 +45,6 @@ $(function () {
         $(".navbar-toggler").removeClass('active');
     });
 
-
     //====== Magnific Popup
     // $('.video-popup').magnificPopup({
     //     type: 'iframe'
@@ -103,7 +102,7 @@ $(function () {
     if (document.getElementById("particles-1")) particlesJS("particles-1", {
         "particles": {
             "number": {
-                "value": 90,
+                "value": 150,
                 "density": {
                     "enable": !0,
                     "value_area": 4000
@@ -156,7 +155,7 @@ $(function () {
             },
             "move": {
                 "enable": !0,
-                "speed": 2,
+                "speed": 3,
                 "direction": "top",
                 "random": !0,
                 "straight": !1,
@@ -214,7 +213,7 @@ $(function () {
     if (document.getElementById("particles-2")) particlesJS("particles-2", {
         "particles": {
             "number": {
-                "value": 90,
+                "value": 150,
                 "density": {
                     "enable": !0,
                     "value_area": 4000

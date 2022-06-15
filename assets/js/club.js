@@ -239,17 +239,12 @@ let clubsRender = document.querySelector('#clubs')
 renderClubs = (clubs) => {
     var countClub = 0;
     clubs.forEach(e => {
-        var clubList = '';
-        var elink, countInner = 0;
+        var clubList = [];
+        var elink;
         e.list.forEach(el => {
-            elink = `<span><a href="${el.link}"target="_blank">${el.name}</a></span>`
-            countInner++;
-            if (countInner != 1)
-                clubList += ', ' + elink
-            else
-                clubList += elink
+            elink = `<span style="margin-left:5px"><a href="${el.link}"target="_blank">${el.name}</a></span>`
+            clubList.push(elink)
         })
-        clubList = clubList.trim().replace('^', ',')
         let prod = `
         <!-- ${e.clubName} -->
             <div class="blog-content ml-15">
