@@ -51,15 +51,6 @@ $(function () {
     //     // other options
     // });
 
-
-    //===== Magnific Popup
-    // $('.image-popup').magnificPopup({
-    //     type: 'image',
-    //     gallery: {
-    //         enabled: true
-    //     }
-    // });
-
     //===== Back to top
 
     // Show or hide the sticky footer button

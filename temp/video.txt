@@ -1,6 +1,6 @@
  =======================video section======================
 
- <section class="video-counter pt-100">
+    <section class="video-counter pt-100">
         <div class="container">
             <div class="row justify-content-around">
                 <div class="col-lg-12 mt-20">
@@ -11,7 +11,7 @@
                         <!-- <p>Lưu ý: 1 số mục sẽ thiếu do đây là hướng dẫn nhập học đợt 1 dành cho học bạ. Các bạn làm theo, nếu thiếu mục nào thì hãy đọc lại hướng dẫn và bổ sung thêm. Cảm ơn !</p> -->
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-10 mt-10">
+                <!-- <div class="col-lg-6 col-md-6 col-10 mt-10">
                     <div class="video-content mt-20 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                         <img class="dots" src="assets/images/dots.svg" alt="dots">
                         <div class="video-wrapper">
@@ -24,15 +24,15 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Hướng dẫn nhập học -->
-                <!-- <div class="col-lg-5 col-md-5 col-10 mt-10">
+                <div class="col-lg-5 col-md-5 col-10 mt-10">
                     <div class="video-content mt-20 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                         <img class="dots" src="assets/images/dots.svg" alt="dots">
                         <div class="video-wrapper">
                             <div class="video-image">
-                                <img src="assets/images/video-1.png" alt="video">
+                                <img src="assets/images/video/video-1.png" alt="video">
                             </div>
                             <div class="video-icon">
                                 <a href="https://www.youtube.com/watch?v=NQ5Pm7PPb6o" class="video-popup"><i
@@ -47,7 +47,7 @@
                         <img class="dots" src="assets/images/dots.svg" alt="dots">
                         <div class="video-wrapper">
                             <div class="video-image">
-                                <img src="assets/images/video-4.png" alt="video">
+                                <img src="assets/images/video/video-4.png" alt="video">
                             </div>
                             <div class="video-icon">
                                 <a href="hhttps://www.youtube.com/watch?v=TcybXHbd540" class="video-popup"><i
@@ -55,7 +55,7 @@
                             </div>
                         </div> 
                     </div> 
-                </div> -->
+                </div>
             </div>
         </div>
     </section>
