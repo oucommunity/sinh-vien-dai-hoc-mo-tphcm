@@ -181,6 +181,13 @@ renderNews(news);
 /* =============== post group =============== */
 let post = [{
         author: 'Thành Nam',
+        image: 'assets/images/postGr/post-13.jpg',
+        image_hot: 'assets/images/postGr/new.gif',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1428577757558828/',
+        time: '17/06/2022',
+        title: '[THÔNG BÁO] Mở đăng ký vào hệ thống quản lý thi của Bộ GD&ĐT dành cho thí sinh tự do'
+    }, {
+        author: 'Thành Nam',
         image: 'assets/images/postGr/post-6.jpg',
         image_hot: 'assets/images/postGr/new.gif',
         link: 'https://www.facebook.com/groups/ou.community/posts/556646679346749/',
@@ -198,7 +205,6 @@ let post = [{
     {
         author: 'Thành Nam',
         image: 'assets/images/postGr/post-9.jpg',
-        image_hot: 'assets/images/postGr/new.gif',
         link: 'https://www.facebook.com/groups/oumembers/posts/1455695938180343/',
         time: '01/04/2022',
         title: 'Thông báo đăng ký tuyển sinh học bạ Đại học Chính quy năm 2022'
@@ -216,13 +222,6 @@ let post = [{
         link: 'https://www.facebook.com/groups/oumembers/posts/1435431036873500/',
         time: '02/03/2022',
         title: 'Chỉ tiêu tuyển sinh - Học phí năm 2022 - 2023 & Điểm chuẩn các năm'
-    },
-    {
-        author: 'Thành Nam',
-        image: 'assets/images/postGr/post-13.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1428577757558828/',
-        time: '20/02/2022',
-        title: 'Công cụ tính điểm xét tuyển (Xét học bạ & xét thi THPT)'
     }
 ]
 
