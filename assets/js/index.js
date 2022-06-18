@@ -183,45 +183,46 @@ let post = [{
         author: 'Thành Nam',
         image: 'assets/images/postGr/post-13.jpg',
         image_hot: 'assets/images/postGr/new.gif',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1428577757558828/',
+        link: 'https://oucommunity.hashnode.dev/thong-bao-dang-ky-tai-khoan-tren-he-thong-quan-ly-thi-cua-bo-gdanddt-dot-bo-sung-danh-cho-thi-sinh-tu-do-da-bo-lo-dot-dang-ky-truoc-ngay-1305',
         time: '17/06/2022',
         title: '[THÔNG BÁO] Mở đăng ký vào hệ thống quản lý thi của Bộ GD&ĐT dành cho thí sinh tự do'
-    }, {
+    },
+    {
         author: 'Thành Nam',
         image: 'assets/images/postGr/post-6.jpg',
         image_hot: 'assets/images/postGr/new.gif',
-        link: 'https://www.facebook.com/groups/ou.community/posts/556646679346749/',
+        link: 'https://oucommunity.hashnode.dev/cong-cu-tinh-diem-xet-tuyen-xet-hoc-ba-and-xet-thi-thpt',
         time: '10/05/2022',
-        title: '[THÔNG BÁO] Thí sinh tự do xét tuyển học bạ phải đăng ký vào hệ thống quản lý thi của Bộ GD&ĐT'
+        title: '📲 Công cụ tính điểm xét tuyển (Xét học bạ & xét thi THPT)'
     },
     {
         author: 'Thành Nam',
         image: 'assets/images/postGr/post-8.png',
         image_hot: 'assets/images/postGr/new.gif',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1457381638011773/',
+        link: 'https://oucommunity.hashnode.dev/can-chuan-bi-gi-truoc-khi-dang-ky-xet-hoc-ba-online',
         time: '04/04/2022',
         title: 'Cần chuẩn bị gì trước khi đăng ký xét học bạ online ?'
     },
     {
         author: 'Thành Nam',
         image: 'assets/images/postGr/post-9.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1455695938180343/',
+        link: 'https://oucommunity.hashnode.dev/diem-chuan-cac-nam',
         time: '01/04/2022',
-        title: 'Thông báo đăng ký tuyển sinh học bạ Đại học Chính quy năm 2022'
+        title: 'Điểm chuẩn từng năm'
     },
     {
         author: 'Thành Nam',
         image: 'assets/images/postGr/post-11.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1444214249328512/',
+        link: 'https://oucommunity.hashnode.dev/gioi-thieu-nganh-chuyen-nganh-dao-tao-co-hoi-viec-lam-o-truong-dh-mo-tphcm',
         time: '15/03/2022',
         title: 'Giới thiệu Ngành - Chuyên ngành đào tạo - Cơ hội việc làm ở Trường ĐH Mở Tp.HCM'
     },
     {
         author: 'Thành Nam',
         image: 'assets/images/postGr/post-12.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1435431036873500/',
+        link: 'https://oucommunity.hashnode.dev/cac-giay-to-can-co-trong-ho-so',
         time: '02/03/2022',
-        title: 'Chỉ tiêu tuyển sinh - Học phí năm 2022 - 2023 & Điểm chuẩn các năm'
+        title: 'Các giấy tờ cần có trong hồ sơ'
     }
 ]
 
@@ -334,7 +335,7 @@ renderPost(post);
 let postReview = [{
         author: 'Diệu Nhân',
         image: 'assets/images/postGr/post-3.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1335854933497778/',
+        link: 'https://oucommunity.hashnode.dev/mot-so-kinh-nghiem-dat-hoc-bong-khuyen-khich-hoc-tap',
         time: '01/10/2021',
         title: 'MỘT SỐ KINH NGHIỆM ĐẠT HỌC BỔNG KHUYẾN KHÍCH HỌC TẬP'
     },
@@ -353,30 +354,23 @@ let postReview = [{
         title: 'Giới thiệu Hệ thống điểm rèn luyện của trường Đại học Mở'
     },
     {
-        author: 'Quang Hà',
-        image: 'assets/images/postGr/post-2.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1293426214407317/',
-        time: '31/07/2021',
-        title: 'Cảm nhận về OU.'
-    },
-    {
         author: 'Hieu Q.Nguyen',
         image: 'assets/images/postGr/post-12.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1263937307356208/',
+        link: 'https://oucommunity.hashnode.dev/nganh-ngon-ngu-anh-tai-dai-hoc-mo-tphcm',
         time: '17/06/2021',
         title: 'NGÀNH NGÔN NGỮ ANH TẠI ĐẠI HỌC MỞ TP. HCM'
     },
     {
         author: 'Quang Hà',
         image: 'assets/images/postGr/post-6.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1291199234630015/',
+        link: 'https://oucommunity.hashnode.dev/goc-nhin-ve-dai-hoc-mo-tu-1-sinh-vien-nam-nhat',
         time: '28/07/2021',
         title: 'Góc nhìn về đại học Mở từ 1 sv năm nhất..'
     },
     {
         author: 'Thành Nam',
         image: 'assets/images/postGr/post-7.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1268234536926485/',
+        link: 'https://oucommunity.hashnode.dev/co-so-371-nguyen-kiem',
         time: '23/06/2021',
         title: 'Review cơ sở 371 Nguyễn Kiệm'
     },
@@ -395,16 +389,9 @@ let postReview = [{
         title: 'Review kiểm tra anh văn đầu vào.'
     },
     {
-        author: 'NT Diễm',
-        image: 'assets/images/postGr/post-15.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1078602749222999/',
-        time: '25/09/2020',
-        title: 'Mẹo thuê phòng trọ.'
-    },
-    {
         author: 'Thành Nam',
         image: 'assets/images/postGr/post-14.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1191871581229448/',
+        link: 'https://oucommunity.hashnode.dev/series/quan-su',
         time: '27/02/2021',
         title: 'Review quân sự.'
     }
