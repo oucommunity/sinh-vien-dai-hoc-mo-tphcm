@@ -1271,6 +1271,10 @@ p {
   -o-transition: all 0.3s ease;
 }
 
+.card-style {
+  padding: 30px 30px 20px 30px;
+}
+
 .single-blog-border {
   border: 2px solid #FE7E71;
 }
@@ -1280,7 +1284,8 @@ p {
   box-shadow: 0 5px 10px #7f89a19a;
 }
 
-.single-blog .blog-image img {
+.single-blog .blog-image img,
+.card-style .blog-image img {
   border-radius: 7px;
   width: 100%;
   -webkit-border-radius: 7px;
@@ -1289,11 +1294,13 @@ p {
   -o-border-radius: 7px;
 }
 
-.single-blog .blog-image {
+.single-blog .blog-image,
+.card-style .blog-image {
   margin-bottom: 10px;
 }
 
-.single-blog .blog-image img:nth-child(2) {
+.single-blog .blog-image img:nth-child(2),
+.card-style .blog-image img:nth-child(2) {
   position: absolute;
   top: -20px;
   right: -20px;
@@ -1301,27 +1308,32 @@ p {
   height: auto;
 }
 
-.single-blog .blog-content {
+.single-blog .blog-content,
+.card-style .blog-content {
   padding-top: 5px;
 }
 
-.single-blog .blog-content .meta li {
+.single-blog .blog-content .meta li,
+.card-style .blog-content .meta li {
   font-size: 16px;
   color: #6A6972;
   display: inline-block;
   margin-left: 30px;
 }
 
-.single-blog .blog-content .meta li:first-child {
+.single-blog .blog-content .meta li:first-child,
+.card-style .blog-content .meta li:first-child {
   margin-left: 0;
 }
 
-.single-blog .blog-content .meta li a {
+.single-blog .blog-content .meta li a,
+.card-style .blog-content .meta li a {
   color: #6A6972;
 }
 
 .single-blog .blog-content .text,
-.trick .text {
+.trick .text,
+.card-style .blog-content .text {
   font-size: 17px;
   font-weight: bold;
   line-height: 25px;
@@ -1337,13 +1349,15 @@ p {
 @media (max-width: 767px) {
 
   .single-blog .blog-content .text,
+  .card-style .blog-content .text,
   .trick .text {
     font-size: 20px;
     line-height: 30px;
   }
 }
 
-.single-blog .blog-content .more {
+.single-blog .blog-content .more,
+.card-style .blog-content .more {
   font-size: 16px;
   color: #FE7E71;
   margin-top: 10px;
@@ -1354,7 +1368,8 @@ p {
   -o-transition: all 0.3s ease;
 }
 
-.single-blog .blog-content .more i {
+.single-blog .blog-content .more i,
+.card-style .blog-content .more i {
   margin-left: 5px;
 }
 
@@ -1512,11 +1527,13 @@ p {
   }
 
 
-  .single-blog .blog-content .meta li {
+  .single-blog .blog-content .meta li,
+  .card-style .blog-content .meta li {
     font-size: 14px;
   }
 
   .single-blog .blog-content .text,
+  .card-style .blog-content .text,
   .trick .text {
     font-size: 16px;
   }
@@ -1637,24 +1654,24 @@ p {
   bottom: 170px;
   width: 40px;
   height: 40px;
+  padding: unset !important;
+  min-width: unset !important;
+  min-height: unset !important;
   line-height: 40px;
-  border-radius: 50%;
-  background: -webkit-linear-gradient(left, #361cc1 0%, #2e82ef 100%);
-  background: -o-linear-gradient(left, #361cc1 0%, #2e82ef 100%);
-  background: linear-gradient(to right, #361cc1 0%, #2e82ef 100%);
   text-align: center;
-  z-index: 99;
-  transition: all 0.4s ease-out;
-  -webkit-transition: all 0.4s ease-out;
-  -moz-transition: all 0.4s ease-out;
-  -ms-transition: all 0.4s ease-out;
-  -o-transition: all 0.4s ease-out;
+  z-index: 99999;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
   visibility: hidden;
   opacity: 0;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  border-radius: 60% 40% 64% 36% / 40% 73% 27% 60% !important;
+  -webkit-border-radius: 60% 40% 64% 36% / 40% 73% 27% 60% !important;
+  -moz-border-radius: 60% 40% 64% 36% / 40% 73% 27% 60% !important;
+  -ms-border-radius: 60% 40% 64% 36% / 40% 73% 27% 60% !important;
+  -o-border-radius: 60% 40% 64% 36% / 40% 73% 27% 60% !important;
 }
 
 .back-to-top.active {
@@ -1665,7 +1682,6 @@ p {
 
 .back-to-top:hover {
   color: #fff;
-  background: linear-gradient(to left, #361cc1 0%, #2e82ef 100%);
 }
 
 /* ----------------
@@ -1676,7 +1692,7 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 998;
+  z-index: 9999;
 }
 
 .progress-container {

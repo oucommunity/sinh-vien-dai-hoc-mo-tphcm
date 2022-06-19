@@ -49,30 +49,51 @@
         -20px -20px 60px #ffffff;
 }
 
-.button-3d--sky {
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
+.button-post {
     display: inline-block;
-    outline: none;
-    border-radius: 5px;
+    text-align: center;
+}
+
+.button {
+    --clr-font-main: hsla(0 0% 20% / 100);
+    --btn-bg-1: hsla(194 100% 69% / 1);
+    --btn-bg-2: hsla(217 100% 56% / 1);
+    --btn-bg-color: hsla(360 100% 100% / 1);
+    --radii: 0.5em;
+    cursor: pointer;
+    padding: 0.9em 1.4em;
+    min-width: 120px;
+    min-height: 44px;
+    font-size: 16px;
+    font-family: "Segoe UI", system-ui, sans-serif;
+    font-weight: 500;
+    transition: 0.8s;
+    background-size: 280% auto;
+    background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
     border: none;
-    background: #3a86ff;
-    box-shadow: 0 5px #4433ff;
+    border-radius: 17% 83% 19% 81% / 77% 20% 80% 23%;
+    color: var(--btn-bg-color);
+    box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px rgba(175, 230, 255, 0.5), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+    -webkit-border-radius: 17% 83% 19% 81% / 77% 20% 80% 23%;
+    -moz-border-radius: 17% 83% 19% 81% / 77% 20% 80% 23%;
+    -ms-border-radius: 17% 83% 19% 81% / 77% 20% 80% 23%;
+    -o-border-radius: 17% 83% 19% 81% / 77% 20% 80% 23%;
 }
 
-.button-3d--sky:hover {
-    box-shadow: 0 3px #4433ff;
-    top: 1px;
+.button:hover {
+    background-position: right top;
 }
 
-.button-3d--sky:active {
-    box-shadow: 0 0 #4433ff;
-    top: 5px;
+.button:is(:focus, :focus-within, :active, :hover) {
+    color: #ffffff;
+    outline: none;
+    box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .btn-donate {
+        transition: linear;
+    }
 }
 
 .faculty .blog-content a,
@@ -446,6 +467,65 @@ label {
 
 .progress.active:before {
     animation: progress 5s linear forwards;
+}
+
+.card {
+    background: #fff;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.card .card-content {
+    z-index: 1;
+    color: white;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    height: 130%;
+    animation: rotBGimg 5s linear infinite;
+    -webkit-animation: rotBGimg 5s linear infinite;
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+}
+
+@keyframes rotBGimg {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    ;
+    inset: 5px;
+    border-radius: 15px;
+}
+
+.card:hover {
+    border: 1px solid rgb(0 0 0 / 45%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 @keyframes progress {

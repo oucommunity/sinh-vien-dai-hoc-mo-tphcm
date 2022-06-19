@@ -183,17 +183,17 @@ let post = [{
         author: 'Thành Nam',
         image: 'assets/images/postGr/post-13.jpg',
         image_hot: 'assets/images/postGr/new.gif',
-        link: 'https://oucommunity.hashnode.dev/thong-bao-dang-ky-tai-khoan-tren-he-thong-quan-ly-thi-cua-bo-gdanddt-dot-bo-sung-danh-cho-thi-sinh-tu-do-da-bo-lo-dot-dang-ky-truoc-ngay-1305',
+        link: 'https://oucommunity.hashnode.dev/dang-ky-tai-khoan-tren-he-thong-quan-ly-thi-cua-bo-gd-va-dt-dot-bo-sung',
         time: '17/06/2022',
-        title: '[THÔNG BÁO] Mở đăng ký vào hệ thống quản lý thi của Bộ GD&ĐT dành cho thí sinh tự do'
+        title: 'Đăng ký tài khoản vào hệ thống quản lý thi của Bộ GD&ĐT dành cho thí sinh tự do'
     },
     {
         author: 'Thành Nam',
         image: 'assets/images/postGr/post-6.jpg',
         image_hot: 'assets/images/postGr/new.gif',
-        link: 'https://oucommunity.hashnode.dev/cong-cu-tinh-diem-xet-tuyen-xet-hoc-ba-and-xet-thi-thpt',
+        link: 'https://oucommunity.hashnode.dev/tinh-diem-xet-tuyen-hoc-ba-thpt',
         time: '10/05/2022',
-        title: '📲 Công cụ tính điểm xét tuyển (Xét học bạ & xét thi THPT)'
+        title: 'Tính điểm xét tuyển học bạ THPT'
     },
     {
         author: 'Thành Nam',
@@ -213,16 +213,16 @@ let post = [{
     {
         author: 'Thành Nam',
         image: 'assets/images/postGr/post-11.jpg',
-        link: 'https://oucommunity.hashnode.dev/gioi-thieu-nganh-chuyen-nganh-dao-tao-co-hoi-viec-lam-o-truong-dh-mo-tphcm',
+        link: 'https://oucommunity.hashnode.dev/gioi-thieu-nganh-hoc',
         time: '15/03/2022',
         title: 'Giới thiệu Ngành - Chuyên ngành đào tạo - Cơ hội việc làm ở Trường ĐH Mở Tp.HCM'
     },
     {
         author: 'Thành Nam',
         image: 'assets/images/postGr/post-12.jpg',
-        link: 'https://oucommunity.hashnode.dev/cac-giay-to-can-co-trong-ho-so',
+        link: 'https://oucommunity.hashnode.dev/cac-giay-to-can-chuan-bi-trong-ho-so-nhap-hoc',
         time: '02/03/2022',
-        title: 'Các giấy tờ cần có trong hồ sơ'
+        title: 'Các giấy tờ cần chuẩn bị trong hồ sơ'
     }
 ]
 
@@ -244,7 +244,7 @@ renderPost = (post) => {
             ` </div>
                 <div class="blog-content">
                     <ul class="meta">
-                        <li><b>Đăng bởi:</b> <a href="#">${e.author}</a></li>
+                        <li><b>Đăng bởi:</b> <a href="javascript:;">${e.author}</a></li>
                         <li style="font-size:14px"><b><i class="fas fa-clock"></i> ${e.time}</b></li>
                     </ul>
                     <p class="text">${e.title}</p>
@@ -260,84 +260,34 @@ renderPost = (post) => {
 }
 renderPost(post);
 
-/* =============== post group utility =============== */
-// let postUtil = [{
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-16.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1347522502331021/',
-//         time: '18/10/2021',
-//         title: 'Hướng dẫn sửa lỗi font slide của giảng viên'
-//     },
-//     {
-//         author: 'Thảo Vy Ngo ',
-//         image: 'assets/images/postGr/post-15.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1337789979970940/',
-//         time: '04/10/2021',
-//         title: 'NOTION PERSONAL PRO - XÀI FREE NHỜ CÓ MAIL TRƯỜNG'
-//     },
-//     {
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-14.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1320830008333604/',
-//         time: '09/09/2021',
-//         title: 'Chatbot ôn luyện tin học và anh văn đầu vào'
-//     },
-//     {
-//         author: 'Thảo Vy Ngo',
-//         image: 'assets/images/postGr/post-13.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1343930692690202/',
-//         time: '13/10/2021',
-//         title: 'CANVA FOR EDUCATION - XÀI FREE NHỜ CÓ MAIL TRƯỜNG'
-//     },
-//     {
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-10.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1311843205898951/',
-//         time: '27/08/2021',
-//         title: 'Share template kho tài liệu tiếng anh tự học'
-//     },
-//     {
-//         author: 'Thành Nam',
-//         image: 'assets/images/postGr/post-12.jpg',
-//         link: 'https://www.facebook.com/groups/oumembers/posts/1284282711988334/',
-//         time: '18/07/2021',
-//         title: 'Hướng dẫn chụp ảnh 3x4 upload web.'
-//     }
-// ]
-// 
-// let post_util_list = document.querySelector('#group-post-util')
-// renderPostUtil = (post) => {
-//     post.forEach(function (e) {
-//         let prod =
-//             `
-//         <div class="df col-lg-4 col-md-6 col-sm-6">
-//             <div class="trick-box">
-//                 <div class="trick-img">
-//                     <img src="${e.image}" alt="mẹo và tiện ích" loading="lazy" />
-//                 </div>
-//                 <div class="trick-data">
-//                     <div class="trick-head">
-//                         <span class="trick-author">${e.author}</span>
-//                         <span>${e.time}</span>
-//                     </div>           
-//                         <p class="text">${e.title}</p>
-//                         <a href="${e.link}" class="trick-more" target="_blank">Xem chi tiết <i class="lni lni-arrow-right"></i></a>
-//                 </div>
-//             </div>
-//         </div>  
-//         `
-//         post_util_list.insertAdjacentHTML("beforeend", prod)
-//     })
-// }
-// renderPostUtil(postUtil);
-
 /* =============== post group review =============== */
 let postReview = [{
         author: 'Diệu Nhân',
         image: 'assets/images/postGr/post-3.jpg',
         link: 'https://oucommunity.hashnode.dev/mot-so-kinh-nghiem-dat-hoc-bong-khuyen-khich-hoc-tap',
         time: '01/10/2021',
-        title: 'MỘT SỐ KINH NGHIỆM ĐẠT HỌC BỔNG KHUYẾN KHÍCH HỌC TẬP'
+        title: 'Một Số Kinh Nghiệm Đạt Học Bổng Khuyến Khích Học Tập'
+    },
+    {
+        author: 'Thảo Vy Ngo ',
+        image: 'assets/images/postGr/post-15.jpg',
+        link: 'https://oucommunity.hashnode.dev/notion',
+        time: '04/10/2021',
+        title: 'Notion Personal Pro - Xài Free Nhờ Có Mail Trường'
+    },
+    {
+        author: 'Thảo Vy Ngo',
+        image: 'assets/images/postGr/post-13.jpg',
+        link: 'https://oucommunity.hashnode.dev/canva',
+        time: '13/10/2021',
+        title: 'Canva For Education - Xài Free Nhờ Có Mail Trường'
+    },
+    {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-10.jpg',
+        link: 'https://oucommunity.hashnode.dev/chia-se-kho-tai-lieu-tieng-anh-tu-hoc',
+        time: '27/08/2021',
+        title: 'Chia sẻ kho tài liệu tiếng anh tự học'
     },
     {
         author: 'Thành Nam',
@@ -358,19 +308,19 @@ let postReview = [{
         image: 'assets/images/postGr/post-12.jpg',
         link: 'https://oucommunity.hashnode.dev/nganh-ngon-ngu-anh-tai-dai-hoc-mo-tphcm',
         time: '17/06/2021',
-        title: 'NGÀNH NGÔN NGỮ ANH TẠI ĐẠI HỌC MỞ TP. HCM'
+        title: 'Ngành ngôn ngữ Anh tại Đại học Mở Tp.HCM'
     },
     {
         author: 'Quang Hà',
         image: 'assets/images/postGr/post-6.jpg',
         link: 'https://oucommunity.hashnode.dev/goc-nhin-ve-dai-hoc-mo-tu-1-sinh-vien-nam-nhat',
         time: '28/07/2021',
-        title: 'Góc nhìn về đại học Mở từ 1 sv năm nhất..'
+        title: 'Góc nhìn về đại học Mở từ 1 sv năm nhất.'
     },
     {
         author: 'Thành Nam',
         image: 'assets/images/postGr/post-7.jpg',
-        link: 'https://oucommunity.hashnode.dev/co-so-371-nguyen-kiem',
+        link: 'https://oucommunity.hashnode.dev/review-co-so-371-nguyen-kiem',
         time: '23/06/2021',
         title: 'Review cơ sở 371 Nguyễn Kiệm'
     },
@@ -384,16 +334,30 @@ let postReview = [{
     {
         author: 'Trần ĐạtK',
         image: 'assets/images/postGr/post-16.jpg',
-        link: 'https://www.facebook.com/groups/oumembers/posts/1080016299081644/',
+        link: 'https://oucommunity.hashnode.dev/review-thi-tieng-anh-dau-vao',
         time: '27/09/2020',
-        title: 'Review kiểm tra anh văn đầu vào.'
+        title: 'Review kiểm tra anh văn đầu vào'
     },
     {
         author: 'Thành Nam',
         image: 'assets/images/postGr/post-14.jpg',
         link: 'https://oucommunity.hashnode.dev/series/quan-su',
         time: '27/02/2021',
-        title: 'Review quân sự.'
+        title: 'Review quân sự'
+    },
+    {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-16.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1347522502331021/',
+        time: '18/10/2021',
+        title: 'Hướng dẫn sửa lỗi font slide của giảng viên'
+    },
+    {
+        author: 'Thành Nam',
+        image: 'assets/images/postGr/post-12.jpg',
+        link: 'https://www.facebook.com/groups/oumembers/posts/1284282711988334/',
+        time: '18/07/2021',
+        title: 'Hướng dẫn chụp ảnh 3x4 upload web.'
     }
 ]
 
@@ -409,7 +373,7 @@ renderPostReview = (post) => {
             </div>
         <div class="blog-content">
             <ul class="meta">
-                <li><b>Đăng bởi:</b> <a href="#">${e.author}</a></li>
+                <li><b>Đăng bởi:</b> <a href="javascript:;">${e.author}</a></li>
                 <li>${e.time}</li>
             </ul>
             <p class="text">${e.title}</p>
@@ -515,19 +479,21 @@ let system_list = document.querySelector('#system-content')
 renderSystem = (system) => {
     system.forEach(function (e) {
         let prod = `
-        <div class="df col-lg-4 col-md-6 col-sm-6 col-11">
-            <div class="single-blog single-blog-border mt-30">
-                <div class="blog-image">
-                    <img src="${e.image}" alt="blog" loading="lazy">
-                </div>
-                <div class="blog-content">
-                    <ul class="meta">
-                        <li><b>Đăng bởi:</b> <a href="#">Thành Nam</a></li>
-                    </ul>
-                    <p class="text">${e.title}</p>
-                    <p><b>Mô tả: </b> ${e.content}</p>
-                    <a class="more" href="${e.link}">Đi tới trang web<i
-                            class="lni-chevron-right"></i></a>
+        <div class="df col-lg-4 col-md-6 col-sm-6 col-11 ">
+            <div class="card mt-30">
+                <div class="card-style card-content">
+                    <div class="blog-image">
+                        <img src="${e.image}" alt="blog" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <ul class="meta">
+                            <li><b>Đăng bởi:</b> <a href="javascript:;">Thành Nam</a></li>
+                        </ul>
+                        <p class="text">${e.title}</p>
+                        <p><b>Mô tả: </b> ${e.content}</p>
+                        <a class="more" href="${e.link}">Đi tới trang web<i
+                                class="lni-chevron-right"></i></a>
+                    </div>
                 </div>
             </div> <!-- single blog -->
         </div>
