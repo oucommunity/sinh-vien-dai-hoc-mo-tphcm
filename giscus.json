@@ -1,5 +1,5 @@
 {
-  "origins": ["https://oucommunity.dev"],
+  "origins": ["https://www.oucommunity.dev"],
   "originsRegex": [
     "https://base-git-([A-z0-9]|-)*oucommunity\\.dev",
     "http://localhost:[0-9]+"
